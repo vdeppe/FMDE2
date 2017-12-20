@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,16,0" name="FMDE.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:23b5dbf3-b0e3-4bc8-9304-e1a74eff2b72(FMDE.typesystem)/4979902282552605081">
+    <file name="Pattern_thkv2m_a0a0a0f.java">
+      <node id="4979902282552617441" at="9,52,10,30" concept="9" />
+      <node id="4979902282552617441" at="10,30,11,0" concept="7" />
+      <node id="4979902282552617441" at="11,0,12,0" concept="7" />
+      <node id="4979902282552617441" at="9,0,14,0" concept="1" trace="Pattern_thkv2m_a0a0a0f#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="4979902282552617441" at="9,52,12,0" />
+      <scope id="4979902282552617441" at="9,0,14,0">
+        <var name="patternNode" id="4979902282552617441" />
+      </scope>
+      <unit id="4979902282552617441" at="8,0,16,0" name="FMDE.typesystem.Pattern_thkv2m_a0a0a0f" />
+    </file>
+    <file name="typesystem_Test_ComparisonRule.java">
+      <node id="4979902282552605081" at="17,0,18,0" concept="3" trace="myMatchingPattern2" />
+      <node id="4979902282552655132" at="20,86,21,169" concept="6" />
+      <node id="4979902282552605081" at="23,27,24,16" concept="6" />
+      <node id="4979902282552605081" at="26,59,27,99" concept="6" />
+      <node id="4979902282552605081" at="30,5,31,110" concept="5" />
+      <node id="4979902282552605081" at="31,110,32,40" concept="2" />
+      <node id="4979902282552605081" at="32,40,33,38" concept="5" />
+      <node id="4979902282552605081" at="33,38,34,48" concept="6" />
+      <node id="4979902282552605081" at="38,51,39,136" concept="6" />
+      <node id="4979902282552605081" at="41,51,42,173" concept="6" />
+      <node id="4979902282552617442" at="44,65,45,63" concept="5" />
+      <node id="4979902282552617442" at="45,63,46,30" concept="5" />
+      <node id="4979902282552617442" at="46,30,47,246" concept="2" />
+      <node id="4979902282552617442" at="47,246,48,24" concept="6" />
+      <node id="4979902282552605081" at="18,0,20,0" concept="1" trace="typesystem_Test_ComparisonRule#()V" />
+      <node id="4979902282552605081" at="20,0,23,0" concept="4" trace="areComparable#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/lang/typesystem/runtime/IsApplicable2Status;)Z" />
+      <node id="4979902282552605081" at="23,0,26,0" concept="4" trace="isWeak#()Z" />
+      <node id="4979902282552605081" at="26,0,29,0" concept="4" trace="isApplicableFirst#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="4979902282552605081" at="38,0,41,0" concept="4" trace="getApplicableConcept1#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="4979902282552605081" at="41,0,44,0" concept="4" trace="getApplicableConcept2#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="4979902282552605081" at="29,60,35,5" concept="0" />
+      <node id="4979902282552617442" at="44,0,50,0" concept="8" trace="_quotation_createNode_thkv2m_a0a0a0a0f#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4979902282552605081" at="29,0,37,0" concept="4" trace="isApplicableSecond#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <scope id="4979902282552605081" at="18,43,18,43" />
+      <scope id="4979902282552605083" at="20,86,21,169" />
+      <scope id="4979902282552605081" at="23,27,24,16" />
+      <scope id="4979902282552605081" at="26,59,27,99" />
+      <scope id="4979902282552605081" at="38,51,39,136" />
+      <scope id="4979902282552605081" at="41,51,42,173" />
+      <scope id="4979902282552605081" at="18,0,20,0" />
+      <scope id="4979902282552605081" at="20,0,23,0">
+        <var name="node1" id="4979902282552605081" />
+        <var name="node2" id="4979902282552605081" />
+        <var name="status" id="4979902282552605081" />
+      </scope>
+      <scope id="4979902282552605081" at="23,0,26,0" />
+      <scope id="4979902282552605081" at="26,0,29,0">
+        <var name="node" id="4979902282552605081" />
+      </scope>
+      <scope id="4979902282552605081" at="38,0,41,0" />
+      <scope id="4979902282552605081" at="41,0,44,0" />
+      <scope id="4979902282552605081" at="30,5,34,48">
+        <var name="b" id="4979902282552605081" />
+        <var name="pattern" id="4979902282552605081" />
+      </scope>
+      <scope id="4979902282552617442" at="44,65,48,24">
+        <var name="facade" id="4979902282552617442" />
+        <var name="quotedNode_1" id="4979902282552617442" />
+      </scope>
+      <scope id="4979902282552605081" at="29,60,35,5" />
+      <scope id="4979902282552617442" at="44,0,50,0" />
+      <scope id="4979902282552605081" at="29,0,37,0">
+        <var name="node" id="4979902282552605081" />
+      </scope>
+      <unit id="4979902282552605081" at="16,0,51,0" name="FMDE.typesystem.typesystem_Test_ComparisonRule" />
+    </file>
+  </root>
+</debug-info>
+

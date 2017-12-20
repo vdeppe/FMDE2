@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,29,0" name="FMDE.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:779437c5-e421-45ea-b75a-7881977a049b(FMDE.constraints)/7996128725096956814">
+    <file name="Mapping_Constraints.java">
+      <node id="7996128725096956814" at="26,32,27,130" concept="6" />
+      <node id="7996128725096956814" at="31,90,32,131" concept="3" />
+      <node id="7996128725096956814" at="35,44,36,20" concept="4" />
+      <node id="7996128725096956814" at="43,63,44,58" concept="4" />
+      <node id="8410024093819255995" at="47,122,48,545" concept="4" />
+      <node id="7996128725096956814" at="55,44,56,20" concept="4" />
+      <node id="7996128725096956814" at="63,63,64,58" concept="4" />
+      <node id="7439401740873931833" at="67,122,68,545" concept="4" />
+      <node id="7996128725096956814" at="72,7,73,22" concept="4" />
+      <node id="7996128725096956814" at="75,0,76,0" concept="5" trace="breakingNode_243n5u_a0a0a0a0a1a0b0a1a2" />
+      <node id="7996128725096956814" at="76,0,77,0" concept="5" trace="breakingNode_243n5u_a0a0a0a0a1a0b0a2a2" />
+      <node id="7996128725096956814" at="26,0,29,0" concept="0" trace="Mapping_Constraints#()V" />
+      <node id="7996128725096956814" at="34,0,38,0" concept="2" trace="hasOwnScopeProvider#()Z" />
+      <node id="7996128725096956814" at="42,0,46,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="7996128725096956814" at="46,0,50,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="7996128725096956814" at="54,0,58,0" concept="2" trace="hasOwnScopeProvider#()Z" />
+      <node id="7996128725096956814" at="62,0,66,0" concept="2" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="7996128725096956814" at="66,0,70,0" concept="2" trace="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="7996128725096956814" at="40,56,50,10" concept="4" />
+      <node id="7996128725096956814" at="60,56,70,10" concept="4" />
+      <node id="7996128725096956814" at="38,0,52,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="7996128725096956814" at="58,0,72,0" concept="2" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="7996128725096956814" at="32,131,52,7" concept="1" />
+      <node id="7996128725096956814" at="52,7,72,7" concept="1" />
+      <node id="7996128725096956814" at="30,0,75,0" concept="2" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="7996128725096956814" at="26,32,27,130" />
+      <scope id="7996128725096956814" at="35,44,36,20" />
+      <scope id="7996128725096956814" at="43,63,44,58" />
+      <scope id="7996128725096956814" at="47,122,48,545" />
+      <scope id="7996128725096956814" at="55,44,56,20" />
+      <scope id="7996128725096956814" at="63,63,64,58" />
+      <scope id="7996128725096956814" at="67,122,68,545" />
+      <scope id="7996128725096956814" at="26,0,29,0" />
+      <scope id="7996128725096956814" at="34,0,38,0" />
+      <scope id="7996128725096956814" at="42,0,46,0" />
+      <scope id="7996128725096956814" at="46,0,50,0">
+        <var name="_context" id="7996128725096956814" />
+        <var name="operationContext" id="7996128725096956814" />
+      </scope>
+      <scope id="7996128725096956814" at="54,0,58,0" />
+      <scope id="7996128725096956814" at="62,0,66,0" />
+      <scope id="7996128725096956814" at="66,0,70,0">
+        <var name="_context" id="7996128725096956814" />
+        <var name="operationContext" id="7996128725096956814" />
+      </scope>
+      <scope id="7996128725096956814" at="40,56,50,10" />
+      <scope id="7996128725096956814" at="60,56,70,10" />
+      <scope id="7996128725096956814" at="38,0,52,0" />
+      <scope id="7996128725096956814" at="58,0,72,0" />
+      <scope id="7996128725096956814" at="31,90,73,22">
+        <var name="references" id="7996128725096956814" />
+      </scope>
+      <scope id="7996128725096956814" at="30,0,75,0" />
+      <unit id="7996128725096956814" at="41,19,50,9" name="FMDE.constraints.Mapping_Constraints$1$1" />
+      <unit id="7996128725096956814" at="61,19,70,9" name="FMDE.constraints.Mapping_Constraints$2$1" />
+      <unit id="7996128725096956814" at="33,152,52,5" name="FMDE.constraints.Mapping_Constraints$1" />
+      <unit id="7996128725096956814" at="53,150,72,5" name="FMDE.constraints.Mapping_Constraints$2" />
+      <unit id="7996128725096956814" at="25,0,78,0" name="FMDE.constraints.Mapping_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="FMDE.sandbox.FinSet_Test" file="FinSet_Test.java">
+    <classNode dependClassName="FMDE.runtime.FinSet" />
+    <classNode dependClassName="FMDE.runtime.TotalFunction" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+</dependenciesRoot>
+

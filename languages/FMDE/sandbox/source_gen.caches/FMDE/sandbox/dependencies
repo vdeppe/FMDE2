@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="FMDE.sandbox.FinSetTest" file="FinSetTest.java">
+    <classNode dependClassName="FMDE.runtime.Composition" />
+    <classNode dependClassName="FMDE.runtime.FinSet" />
+    <classNode dependClassName="FMDE.runtime.TotalFunction" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.util.ArrayList" />
+  </dependency>
+  <dependency className="FMDE.sandbox.Test" file="Test.java">
+    <classNode dependClassName="FMDE.runtime.FinSet" />
+    <classNode dependClassName="FMDE.runtime.TotalFunction" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.ArrayList" />
+  </dependency>
+  <dependency className="FMDE.sandbox.TestKlasse" file="TestKlasse.java">
+    <classNode dependClassName="FMDE.runtime.Composition" />
+    <classNode dependClassName="FMDE.runtime.FinSet" />
+    <classNode dependClassName="FMDE.runtime.TotalFunction" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.util.ArrayList" />
+  </dependency>
+</dependenciesRoot>
+
