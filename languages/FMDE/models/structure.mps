@@ -46,7 +46,6 @@
   <node concept="1TIwiD" id="5w7k0eSQPea">
     <property role="EcuMT" value="6343126577091138442" />
     <property role="TrG5h" value="FinSet" />
-    <property role="34LRSv" value="fset" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="PrWs8" id="3MKtQ2Ximw8" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -62,7 +61,6 @@
   <node concept="1TIwiD" id="5w7k0eSR4wL">
     <property role="EcuMT" value="6343126577091201073" />
     <property role="TrG5h" value="TotalFunction" />
-    <property role="34LRSv" value="tFunction" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="5w7k0eSR4x8" role="1TKVEi">
       <property role="IQ2ns" value="6343126577091201096" />
@@ -198,14 +196,14 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="fSets" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="5w7k0eSQPea" resolve="FinSet" />
+      <ref role="20lvS9" node="qY_Qfzq_YE" resolve="FinSetRendering" />
     </node>
     <node concept="1TJgyj" id="5IJfuH_Q_9x" role="1TKVEi">
       <property role="IQ2ns" value="6606567259611222625" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="TFunctions" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="5w7k0eSR4wL" resolve="TotalFunction" />
+      <ref role="20lvS9" node="5IJfuH_PdCn" resolve="TotalFunctionRendering" />
     </node>
     <node concept="PrWs8" id="4KYwSRG_ROM" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -214,6 +212,7 @@
   <node concept="1TIwiD" id="5IJfuH_PdCn">
     <property role="EcuMT" value="6606567259610864151" />
     <property role="TrG5h" value="TotalFunctionRendering" />
+    <property role="34LRSv" value="tfunctionRendering" />
     <ref role="1TJDcQ" node="5w7k0eSR4wL" resolve="TotalFunction" />
     <node concept="1TJgyj" id="5IJfuH_PdCN" role="1TKVEi">
       <property role="IQ2ns" value="6606567259610864179" />

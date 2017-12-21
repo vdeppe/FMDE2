@@ -1,125 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1160998861373:jetbrains.mps.baseLanguage.structure.AssertStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
-  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
-  <root nodeRef="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/5016177838256802478">
-    <file name="TestKlasse.java">
-      <node id="5016177838256803127" at="14,7,15,18" concept="0" />
-      <node id="5016177838256803127" at="15,18,16,18" concept="0" />
-      <node id="5016177838256803127" at="16,18,17,18" concept="0" />
-      <node id="5016177838256803134" at="22,7,23,18" concept="0" />
-      <node id="5016177838256803134" at="23,18,24,18" concept="0" />
-      <node id="5016177838256803134" at="24,18,25,18" concept="0" />
-      <node id="5016177838256803138" at="27,7,28,0" concept="2" />
-      <node id="5016177838256803142" at="31,7,32,65" concept="0" />
-      <node id="5016177838256803142" at="32,65,33,65" concept="0" />
-      <node id="5016177838256803142" at="33,65,34,65" concept="0" />
-      <node id="5016177838256803149" at="39,7,40,65" concept="0" />
-      <node id="5016177838256803149" at="40,65,41,65" concept="0" />
-      <node id="5016177838256803149" at="41,65,42,65" concept="0" />
-      <node id="5016177838256803156" at="47,7,48,18" concept="0" />
-      <node id="5016177838256803156" at="48,18,49,18" concept="0" />
-      <node id="5016177838256803156" at="49,18,50,18" concept="0" />
-      <node id="5016177838256803163" at="54,7,55,22" concept="0" />
-      <node id="5016177838256803167" at="59,7,60,22" concept="0" />
-      <node id="5016177838256803168" at="62,6,63,68" concept="0" />
-      <node id="5016177838256803160" at="52,7,57,6" concept="1" />
-      <node id="5016177838256803164" at="57,6,62,6" concept="1" />
-      <node id="5016177838256803124" at="11,42,19,7" concept="1" />
-      <node id="5016177838256803131" at="19,7,27,7" concept="1" />
-      <node id="5016177838256803139" at="28,0,36,6" concept="1" />
-      <node id="5016177838256803146" at="36,6,44,6" concept="1" />
-      <node id="5016177838256803153" at="44,6,52,7" concept="1" />
-      <node id="5016177838256803122" at="11,0,65,0" concept="3" trace="main#([Ljava/lang/String;)V" />
-      <scope id="5016177838256803163" at="54,7,55,22" />
-      <scope id="5016177838256803167" at="59,7,60,22" />
-      <scope id="5016177838256803127" at="14,7,17,18" />
-      <scope id="5016177838256803134" at="22,7,25,18" />
-      <scope id="5016177838256803142" at="31,7,34,65" />
-      <scope id="5016177838256803149" at="39,7,42,65" />
-      <scope id="5016177838256803156" at="47,7,50,18" />
-      <scope id="5016177838256803123" at="11,42,63,68">
-        <var name="X" id="5016177838256803125" />
-        <var name="Y" id="5016177838256803132" />
-        <var name="Z" id="5016177838256803154" />
-        <var name="f" id="5016177838256803140" />
-        <var name="fg" id="5016177838256803161" />
-        <var name="g" id="5016177838256803147" />
-        <var name="gf" id="5016177838256803165" />
-      </scope>
-      <scope id="5016177838256803122" at="11,0,65,0">
-        <var name="args" id="5016177838256832352" />
-      </scope>
-      <unit id="5016177838256803163" at="53,27,57,5" name="FMDE.sandbox.TestKlasse$6" />
-      <unit id="5016177838256803167" at="58,27,62,5" name="FMDE.sandbox.TestKlasse$7" />
-      <unit id="5016177838256803127" at="12,30,19,5" name="FMDE.sandbox.TestKlasse$1" />
-      <unit id="5016177838256803134" at="20,30,27,5" name="FMDE.sandbox.TestKlasse$2" />
-      <unit id="5016177838256803142" at="29,26,36,5" name="FMDE.sandbox.TestKlasse$3" />
-      <unit id="5016177838256803149" at="37,26,44,5" name="FMDE.sandbox.TestKlasse$4" />
-      <unit id="5016177838256803156" at="45,30,52,5" name="FMDE.sandbox.TestKlasse$5" />
-      <unit id="5016177838256802478" at="10,0,66,0" name="FMDE.sandbox.TestKlasse" />
-    </file>
-  </root>
-  <root nodeRef="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/6343126577090632465">
-    <file name="FinSetTest.java">
-      <node id="5016177838256746890" at="14,7,15,18" concept="0" />
-      <node id="5016177838256746890" at="15,18,16,18" concept="0" />
-      <node id="5016177838256746890" at="16,18,17,18" concept="0" />
-      <node id="5016177838256746897" at="22,7,23,18" concept="0" />
-      <node id="5016177838256746897" at="23,18,24,18" concept="0" />
-      <node id="5016177838256746897" at="24,18,25,18" concept="0" />
-      <node id="5016177838257369927" at="27,7,28,0" concept="2" />
-      <node id="5016177838256746901" at="28,0,29,0" concept="2" />
-      <node id="5016177838256746905" at="32,7,33,65" concept="0" />
-      <node id="5016177838256746905" at="33,65,34,65" concept="0" />
-      <node id="5016177838256746905" at="34,65,35,65" concept="0" />
-      <node id="5016177838256746912" at="40,7,41,65" concept="0" />
-      <node id="5016177838256746912" at="41,65,42,65" concept="0" />
-      <node id="5016177838256746912" at="42,65,43,65" concept="0" />
-      <node id="5016177838256746919" at="48,7,49,18" concept="0" />
-      <node id="5016177838256746919" at="49,18,50,18" concept="0" />
-      <node id="5016177838256746919" at="50,18,51,18" concept="0" />
-      <node id="5016177838256746926" at="55,7,56,22" concept="0" />
-      <node id="5016177838256746930" at="60,7,61,22" concept="0" />
-      <node id="2471835282860006704" at="63,6,64,12" concept="0" />
-      <node id="5016177838256746931" at="64,12,65,68" concept="0" />
-      <node id="5016177838256746923" at="53,7,58,6" concept="1" />
-      <node id="5016177838256746927" at="58,6,63,6" concept="1" />
-      <node id="5016177838256746887" at="11,42,19,7" concept="1" />
-      <node id="5016177838256746894" at="19,7,27,7" concept="1" />
-      <node id="5016177838256746902" at="29,0,37,6" concept="1" />
-      <node id="5016177838256746909" at="37,6,45,6" concept="1" />
-      <node id="5016177838256746916" at="45,6,53,7" concept="1" />
-      <node id="5016177838256746884" at="11,0,67,0" concept="3" trace="main#([Ljava/lang/String;)V" />
-      <scope id="5016177838256746926" at="55,7,56,22" />
-      <scope id="5016177838256746930" at="60,7,61,22" />
-      <scope id="5016177838256746890" at="14,7,17,18" />
-      <scope id="5016177838256746897" at="22,7,25,18" />
-      <scope id="5016177838256746905" at="32,7,35,65" />
-      <scope id="5016177838256746912" at="40,7,43,65" />
-      <scope id="5016177838256746919" at="48,7,51,18" />
-      <scope id="5016177838256746886" at="11,42,65,68">
-        <var name="X" id="5016177838256746888" />
-        <var name="Y" id="5016177838256746895" />
-        <var name="Z" id="5016177838256746917" />
-        <var name="f" id="5016177838256746903" />
-        <var name="fg" id="5016177838256746924" />
-        <var name="g" id="5016177838256746910" />
-        <var name="gf" id="5016177838256746928" />
-      </scope>
-      <scope id="5016177838256746884" at="11,0,67,0">
-        <var name="args" id="5016177838256746941" />
-      </scope>
-      <unit id="5016177838256746926" at="54,27,58,5" name="FMDE.sandbox.FinSetTest$6" />
-      <unit id="5016177838256746930" at="59,27,63,5" name="FMDE.sandbox.FinSetTest$7" />
-      <unit id="5016177838256746890" at="12,30,19,5" name="FMDE.sandbox.FinSetTest$1" />
-      <unit id="5016177838256746897" at="20,30,27,5" name="FMDE.sandbox.FinSetTest$2" />
-      <unit id="5016177838256746905" at="30,26,37,5" name="FMDE.sandbox.FinSetTest$3" />
-      <unit id="5016177838256746912" at="38,26,45,5" name="FMDE.sandbox.FinSetTest$4" />
-      <unit id="5016177838256746919" at="46,30,53,5" name="FMDE.sandbox.FinSetTest$5" />
-      <unit id="6343126577090632465" at="10,0,68,0" name="FMDE.sandbox.FinSetTest" />
+  <root nodeRef="r:a66e2cdb-719c-4263-89ed-eba5903d4917(FMDE.sandbox@tests)/1491617823391438311">
+    <file name="FinSet_Test.java">
+      <node id="1491617823391440175" at="10,0,11,0" concept="2" trace="X1" />
+      <node id="1491617823391440249" at="11,0,12,0" concept="2" trace="Y1" />
+      <node id="1491617823391440349" at="12,0,13,0" concept="2" trace="Z1" />
+      <node id="1491617823391443782" at="13,0,14,0" concept="2" trace="X2" />
+      <node id="1491617823391444144" at="14,0,15,0" concept="2" trace="Y2" />
+      <node id="1491617823391444532" at="15,0,16,0" concept="2" trace="Z2" />
+      <node id="1491617823391465597" at="16,0,17,0" concept="2" trace="g1" />
+      <node id="1491617823391469429" at="17,0,18,0" concept="2" trace="h1" />
+      <node id="1491617823391472661" at="18,0,19,0" concept="2" trace="i1" />
+      <node id="1491617823391476563" at="19,0,20,0" concept="2" trace="g2" />
+      <node id="1491617823391479259" at="20,0,21,0" concept="2" trace="i2" />
+      <node id="1491617823391481987" at="21,0,22,0" concept="2" trace="h2" />
+      <node id="8569511888947511615" at="22,54,23,25" concept="0" />
+      <node id="8569511888947518242" at="23,25,24,25" concept="0" />
+      <node id="8569511888947525776" at="24,25,25,25" concept="0" />
+      <node id="8569511888947503104" at="25,25,26,0" concept="4" />
+      <node id="8569511888947533358" at="28,61,29,25" concept="0" />
+      <node id="8569511888947539899" at="29,25,30,25" concept="0" />
+      <node id="8569511888947543374" at="30,25,31,25" concept="0" />
+      <node id="1491617823391458346" at="33,23,34,40" concept="1" />
+      <node id="1491617823391454644" at="34,40,35,39" concept="1" />
+      <node id="1491617823391581801" at="35,39,36,35" concept="1" />
+      <node id="1491617823391605210" at="36,35,37,0" concept="4" />
+      <node id="1491617823391496093" at="37,0,38,151" concept="1" />
+      <node id="1491617823391519975" at="38,151,39,148" concept="1" />
+      <node id="1491617823391524836" at="39,148,40,155" concept="1" />
+      <node id="4145666978924492763" at="40,155,41,0" concept="4" />
+      <node id="1491617823391442504" at="28,0,33,0" concept="3" trace="test_TotalFunctionEquality#()V" />
+      <node id="1491617823391569999" at="22,0,28,0" concept="3" trace="test_FinSetEquality#()V" />
+      <node id="1491617823391438311" at="33,0,43,0" concept="3" trace="setUp#()V" />
+      <scope id="1491617823391442507" at="28,61,31,25" />
+      <scope id="1491617823391570002" at="22,54,26,0" />
+      <scope id="1491617823391442504" at="28,0,33,0" />
+      <scope id="1491617823391569999" at="22,0,28,0" />
+      <scope id="1491617823391440513" at="33,23,41,0" />
+      <scope id="1491617823391438311" at="33,0,43,0" />
+      <unit id="1491617823391438311" at="9,0,45,0" name="FMDE.sandbox.FinSet_Test" />
     </file>
   </root>
 </debug-info>

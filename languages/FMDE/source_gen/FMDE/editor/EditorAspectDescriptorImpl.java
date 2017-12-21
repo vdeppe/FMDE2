@@ -17,7 +17,7 @@ import jetbrains.mps.lang.smodel.ConceptSwitchIndexBuilder;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase implements EditorHintsProvider {
-  private Collection<ConceptEditorHint> myHints = Arrays.<ConceptEditorHint>asList(new ConceptEditorHintImpl("diagram", "", true, "FMDE.editor.projects.diagram"));
+  private Collection<ConceptEditorHint> myHints = Arrays.<ConceptEditorHint>asList(new ConceptEditorHintImpl("diagram", "", true, "FMDE.editor.Project.diagram"), new ConceptEditorHintImpl("table", "", true, "FMDE.editor.Project.table"));
   @NotNull
   public Collection<ConceptEditor> getDeclaredEditors(SAbstractConcept concept) {
     SAbstractConcept cncpt_a0b = ((SAbstractConcept) concept);
@@ -29,15 +29,15 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase imple
       case 2:
         return Collections.<ConceptEditor>singletonList(new FinSetElements_Editor());
       case 3:
-        return Collections.<ConceptEditor>singletonList(new FinSetRendering_Editor());
+        return Collections.<ConceptEditor>singletonList(new FinSetRendering_diagram_Editor());
       case 4:
         return Collections.<ConceptEditor>singletonList(new Mapping_Editor());
       case 5:
-        return Collections.<ConceptEditor>singletonList(new Project_Editor());
+        return Collections.<ConceptEditor>singletonList(new Project_diagram_Editor());
       case 6:
         return Collections.<ConceptEditor>singletonList(new TotalFunction_Editor());
       case 7:
-        return Collections.<ConceptEditor>singletonList(new TotalFunctionRendering_Editor());
+        return Collections.<ConceptEditor>singletonList(new TotalFunctionRendering_diagram_Editor());
       default:
     }
     return Collections.<ConceptEditor>emptyList();

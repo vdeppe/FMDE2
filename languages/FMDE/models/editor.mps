@@ -18,14 +18,18 @@
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
-      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
+      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
+        <child id="2597348684684069742" name="contextHints" index="CpUAK" />
+      </concept>
+      <concept id="6822301196700715228" name="jetbrains.mps.lang.editor.structure.ConceptEditorHintDeclarationReference" flags="ig" index="2aJ2om">
+        <reference id="5944657839026714445" name="hint" index="2$4xQ3" />
+      </concept>
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
       <concept id="1106270637846" name="jetbrains.mps.lang.editor.structure.CellLayout_Flow" flags="nn" index="2iR$Sn" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
-      <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
       <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
@@ -392,6 +396,9 @@
         </node>
       </node>
     </node>
+    <node concept="2aJ2om" id="iIkLbgWFkJ" role="CpUAK">
+      <ref role="2$4xQ3" node="4pxCBZ5cvp" resolve="diagram" />
+    </node>
   </node>
   <node concept="24kQdi" id="qY_QfzqJJN">
     <ref role="1XX52x" to="eb3o:qY_QfzqJJi" resolve="Project" />
@@ -411,23 +418,6 @@
         <node concept="ljvvj" id="4KYwSRGzXcM" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-      </node>
-      <node concept="3F2HdR" id="4KYwSRG_4Jk" role="3EZMnx">
-        <ref role="1NtTu8" to="eb3o:qY_QfzqJJI" resolve="fSets" />
-        <node concept="l2Vlx" id="4KYwSRG_4Jm" role="2czzBx" />
-        <node concept="pVoyu" id="4KYwSRG_5ao" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="ljvvj" id="4KYwSRG_5aq" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="pj6Ft" id="4KYwSRG_5sN" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F2HdR" id="4KYwSRG_64d" role="3EZMnx">
-        <ref role="1NtTu8" to="eb3o:5IJfuH_Q_9x" resolve="TFunctions" />
-        <node concept="l2Vlx" id="4KYwSRG_64f" role="2czzBx" />
       </node>
       <node concept="2b3QIZ" id="5OgZMJ0sal4" role="3EZMnx">
         <node concept="3IuyZp" id="5IJfuH_Q$$p" role="3Iu_Fc">
@@ -577,6 +567,9 @@
         </node>
       </node>
     </node>
+    <node concept="2aJ2om" id="iIkLbgXHFS" role="CpUAK">
+      <ref role="2$4xQ3" node="4pxCBZ5cvp" resolve="diagram" />
+    </node>
   </node>
   <node concept="24kQdi" id="5IJfuH_PTed">
     <ref role="1XX52x" to="eb3o:5IJfuH_PdCn" resolve="TotalFunctionRendering" />
@@ -604,12 +597,19 @@
         </node>
       </node>
     </node>
+    <node concept="2aJ2om" id="iIkLbgXI0X" role="CpUAK">
+      <ref role="2$4xQ3" node="4pxCBZ5cvp" resolve="diagram" />
+    </node>
   </node>
   <node concept="2ABfQD" id="43Y8Bn94mvT">
-    <property role="TrG5h" value="projects" />
+    <property role="TrG5h" value="Project" />
     <node concept="2BsEeg" id="4pxCBZ5cvp" role="2ABdcP">
       <property role="2gpH_U" value="true" />
-      <property role="TrG5h" value="diagramm" />
+      <property role="TrG5h" value="diagram" />
+    </node>
+    <node concept="2BsEeg" id="iIkLbgVRHS" role="2ABdcP">
+      <property role="2gpH_U" value="true" />
+      <property role="TrG5h" value="table" />
     </node>
   </node>
 </model>

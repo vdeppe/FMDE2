@@ -61,7 +61,13 @@ public class FinSetTest {
         compose(g, f);
       }
     };
-    fg = gf;
+    FinSet fSet = new FinSet(new ArrayList<Object>() {
+
+      {
+        add("fs1");
+        add("fs2");
+      }
+    });
     System.out.println("f;g is equal to g;f " + fg.isTheSameAs(gf));
   }
 }

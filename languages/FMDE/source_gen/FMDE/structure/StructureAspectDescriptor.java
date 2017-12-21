@@ -80,7 +80,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:a208b3cd-5ffc-485a-a143-275bfdd90278(FMDE.structure)/6343126577091138442");
     b.aggregate("elements", 0x40c47a43bd1d01d1L).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x40c47a43bd1d01b3L).optional(true).ordered(true).multiple(true).origin("4666989545216868817").done();
-    b.alias("fset");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForFinSetElements() {
@@ -116,8 +115,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:a208b3cd-5ffc-485a-a143-275bfdd90278(FMDE.structure)/485992265075588050");
-    b.aggregate("fSets", 0x6be9763e36afbeeL).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x58075003b8db538aL).optional(true).ordered(true).multiple(true).origin("485992265075588078").done();
-    b.aggregate("TFunctions", 0x5baf3deb65da5261L).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x58075003b8dc4831L).optional(true).ordered(true).multiple(true).origin("6606567259611222625").done();
+    b.aggregate("fSets", 0x6be9763e36afbeeL).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x6be9763e36a5faaL).optional(true).ordered(true).multiple(true).origin("485992265075588078").done();
+    b.aggregate("TFunctions", 0x5baf3deb65da5261L).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5baf3deb65d4da17L).optional(true).ordered(true).multiple(true).origin("6606567259611222625").done();
     b.alias("project");
     return b.create();
   }
@@ -130,7 +129,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.associate("source", 0x58075003b8ddfac3L).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x58075003b8db538aL).optional(false).origin("6343126577091312323").done();
     b.associate("target", 0x58075003b8ddfac8L).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x58075003b8db538aL).optional(false).origin("6343126577091312328").done();
     b.aggregate("mapping", 0x58075003b8dc4848L).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x58075003b8dc484bL).optional(false).ordered(true).multiple(true).origin("6343126577091201096").done();
-    b.alias("tFunction");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForTotalFunctionRendering() {
@@ -138,6 +136,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.super_("FMDE.structure.TotalFunction", 0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x58075003b8dc4831L);
     b.origin("r:a208b3cd-5ffc-485a-a143-275bfdd90278(FMDE.structure)/6606567259610864151");
+    b.alias("tfunctionRendering");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForfmdeLanguage() {
