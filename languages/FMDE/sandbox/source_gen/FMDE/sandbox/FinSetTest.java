@@ -61,6 +61,7 @@ public class FinSetTest {
         compose(g, f);
       }
     };
+    fg = gf;
     System.out.println("f;g is equal to g;f " + fg.isTheSameAs(gf));
   }
 }

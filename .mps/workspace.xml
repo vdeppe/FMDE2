@@ -7,8 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d039f73b-7446-4439-8a30-e0b954ce9f44" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.mps/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/FMDE/sandbox/classes_gen/FMDE/sandbox/Test$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/FMDE/sandbox/classes_gen/FMDE/sandbox/Test$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/FMDE/sandbox/classes_gen/FMDE/sandbox/Test$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/FMDE/sandbox/classes_gen/FMDE/sandbox/Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/FMDE/sandbox/source_gen/FMDE/sandbox/Test.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/FMDE/classes_gen/FMDE/editor/EditorAspectDescriptorImpl.class" afterPath="$PROJECT_DIR$/languages/FMDE/classes_gen/FMDE/editor/EditorAspectDescriptorImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/FMDE/sandbox/classes_gen/FMDE/sandbox/FinSetTest.class" afterPath="$PROJECT_DIR$/languages/FMDE/sandbox/classes_gen/FMDE/sandbox/FinSetTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/FMDE/classes_gen/FMDE/editor/trace.info" afterPath="$PROJECT_DIR$/languages/FMDE/classes_gen/FMDE/editor/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/FMDE/models/editor.mps" afterPath="$PROJECT_DIR$/languages/FMDE/models/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/FMDE/sandbox/classes_gen/FMDE/sandbox/trace.info" afterPath="$PROJECT_DIR$/languages/FMDE/sandbox/classes_gen/FMDE/sandbox/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/FMDE/sandbox/models/FMDE.sandbox.mps" afterPath="$PROJECT_DIR$/languages/FMDE/sandbox/models/FMDE.sandbox.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/FMDE/sandbox/source_gen.caches/FMDE/sandbox/dependencies" afterPath="$PROJECT_DIR$/languages/FMDE/sandbox/source_gen.caches/FMDE/sandbox/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/FMDE/sandbox/source_gen.caches/FMDE/sandbox/generated" afterPath="$PROJECT_DIR$/languages/FMDE/sandbox/source_gen.caches/FMDE/sandbox/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/FMDE/sandbox/source_gen/FMDE/sandbox/FinSetTest.java" afterPath="$PROJECT_DIR$/languages/FMDE/sandbox/source_gen/FMDE/sandbox/FinSetTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/FMDE/sandbox/source_gen/FMDE/sandbox/trace.info" afterPath="$PROJECT_DIR$/languages/FMDE/sandbox/source_gen/FMDE/sandbox/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/FMDE/source_gen.caches/FMDE/editor/dependencies" afterPath="$PROJECT_DIR$/languages/FMDE/source_gen.caches/FMDE/editor/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/FMDE/source_gen.caches/FMDE/editor/generated" afterPath="$PROJECT_DIR$/languages/FMDE/source_gen.caches/FMDE/editor/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/FMDE/source_gen.caches/FMDE/generated" afterPath="$PROJECT_DIR$/languages/FMDE/source_gen.caches/FMDE/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/FMDE/source_gen/FMDE/editor/EditorAspectDescriptorImpl.java" afterPath="$PROJECT_DIR$/languages/FMDE/source_gen/FMDE/editor/EditorAspectDescriptorImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/FMDE/source_gen/FMDE/editor/trace.info" afterPath="$PROJECT_DIR$/languages/FMDE/source_gen/FMDE/editor/trace.info" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +42,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="dc677b73-6619-403c-8563-449cd0c3338e/r:8ca83fd0-34fb-4528-9e04-687a519dadb9(TempModuledc677b73-6619-403c-8563-449cd0c3338e/TempModel_25259746121219)">
+            <model ref="dcc16011-f20a-41ae-a898-59a6308c8e9b/r:2e313cb9-f458-4285-82be-93487f8c6351(TempModuledcc16011-f20a-41ae-a898-59a6308c8e9b/TempModel_17716372586465)">
               <persistence version="9" />
               <languages>
                 <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
@@ -57,13 +76,13 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="4E7CknlTCAE">
-                <node concept="3balQm" id="4E7CknlTCAF" role="aymYE" />
-                <node concept="2Clz$F" id="4E7CknlTCAG" role="aymYO">
+              <node concept="aymSD" id="6CcOhaspLRM">
+                <node concept="3balQm" id="6CcOhaspLRN" role="aymYE" />
+                <node concept="2Clz$F" id="6CcOhaspLRO" role="aymYO">
                   <property role="TrG5h" value="CommandHolder" />
                 </node>
-                <node concept="2_V_lH" id="4E7CknlTCAH" role="1PhJh3">
-                  <ref role="2_V_lI" node="4E7CknlTCAG" resolve="CommandHolder" />
+                <node concept="2_V_lH" id="6CcOhaspLRP" role="1PhJh3">
+                  <ref role="2_V_lI" node="6CcOhaspLRO" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -95,11 +114,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="71" />
-                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="111" />
+                    <property name="caretXRelative" value="8" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
-                      <node node_reference="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/2471835282860007311" />
+                    <cellInfo cellId="Constant_zedcwq_b0" cellNumber="0" isInList="false">
+                      <node node_reference="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/2471835282860006704" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -119,31 +138,74 @@
                     </cellIdElement>
                   </collapsedElement>
                 </restoreAlways>
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="FMDE.editor.projects.diagram" />
+                </enabledHints>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/2471835282860005682" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/4683218551792052189" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
                 <foldable />
                 <restoreAlways />
-                <enabledHints />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="FMDE.editor.projects.diagram" />
+                </enabledHints>
               </inspectorMemento>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test" pinned="false" current-in-tab="true">
-        <entry file="mps://node://FMDE.sandbox/FMDE.sandbox/Test">
+      <file leaf-file-name="test" pinned="false" current-in-tab="true">
+        <entry file="mps://node://FMDE.sandbox/FMDE.sandbox/test">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                    <property name="caretX" value="-255" />
-                    <property name="caretXRelative" value="-290" />
+                    <property name="caretX" value="-15" />
+                    <property name="caretXRelative" value="-40" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="DiagramConnector_6jlyi6_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/2471835282860005682" />
+                    <cellInfo cellId="DiagramNode_c42wez_a" cellNumber="0" isInList="false">
+                      <node node_reference="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/4683218551792052189" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="FMDE.editor.projects.diagram" />
+                </enabledHints>
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/4683218551792052189" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="FMDE.editor.projects.diagram" />
+                </enabledHints>
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects" pinned="false" current-in-tab="false">
+        <entry file="mps://node://FMDE/FMDE.editor/projects">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="143" />
+                    <property name="caretXRelative" value="64" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:3d243320-66c6-4be1-88d0-da739fb0c086(FMDE.editor)/79242395703887833" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -152,13 +214,15 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/2471835282860005682" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/4683218551792052189" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
                 <foldable />
                 <restoreAlways />
-                <enabledHints />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="FMDE.editor.projects.diagram" />
+                </enabledHints>
               </inspectorMemento>
             </state>
           </provider>
@@ -185,13 +249,15 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/2471835282860005682" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/4683218551792052189" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
                 <foldable />
                 <restoreAlways />
-                <enabledHints />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="FMDE.editor.projects.diagram" />
+                </enabledHints>
               </inspectorMemento>
               <node node_ref="r:3d243320-66c6-4be1-88d0-da739fb0c086(FMDE.editor)/485992265075588083" />
             </state>
@@ -236,13 +302,15 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/2471835282860005682" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/4683218551792052189" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
                 <foldable />
                 <restoreAlways />
-                <enabledHints />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="FMDE.editor.projects.diagram" />
+                </enabledHints>
               </inspectorMemento>
             </state>
           </provider>
@@ -343,8 +411,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="FileSystem" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -353,166 +421,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="4e0b0999-e33e-4843-a738-8042ce366907" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FMDE" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:1dc54318-991a-433a-bf6c-679f18afc7d8(FMDE.runtime) in IdeaFile{file://C:/Users/Volker/FMDE/fmde_mps/languages/FMDE/languages/FMDE/runtime/models/FMDE.runtime.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="41ba7664-a5f6-4eba-b5f5-2e676d679bac(FMDE)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:779437c5-e421-45ea-b75a-7881977a049b(FMDE.constraints) in IdeaFile{file://C:/Users/Volker/FMDE/fmde_mps/languages/FMDE/languages/FMDE/models/constraints.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4e0b0999-e33e-4843-a738-8042ce366907" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FMDE" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="41ba7664-a5f6-4eba-b5f5-2e676d679bac(FMDE)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:23b5dbf3-b0e3-4bc8-9304-e1a74eff2b72(FMDE.typesystem) in IdeaFile{file://C:/Users/Volker/FMDE/fmde_mps/languages/FMDE/languages/FMDE/models/typesystem.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="41ba7664-a5f6-4eba-b5f5-2e676d679bac(FMDE)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:3d243320-66c6-4be1-88d0-da739fb0c086(FMDE.editor) in IdeaFile{file://C:/Users/Volker/FMDE/fmde_mps/languages/FMDE/languages/FMDE/models/editor.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4e0b0999-e33e-4843-a738-8042ce366907" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="41ba7664-a5f6-4eba-b5f5-2e676d679bac(FMDE)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="41ba7664-a5f6-4eba-b5f5-2e676d679bac(FMDE)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FMDE#6343126577090578582" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:77ed4b32-2d80-41ed-8715-0d93e50599a4(main@generator) in IdeaFile{file://C:/Users/Volker/FMDE/fmde_mps/languages/FMDE/languages/FMDE/generator/template/main@generator.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="41ba7664-a5f6-4eba-b5f5-2e676d679bac(FMDE)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:a208b3cd-5ffc-485a-a143-275bfdd90278(FMDE.structure) in IdeaFile{file://C:/Users/Volker/FMDE/fmde_mps/languages/FMDE/languages/FMDE/models/structure.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="41ba7664-a5f6-4eba-b5f5-2e676d679bac(FMDE)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FMDE#6343126577090578582" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="41ba7664-a5f6-4eba-b5f5-2e676d679bac(FMDE)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:8b7b6819-fd49-41b6-a0cf-8f01efc033cb(FMDE.behavior) in IdeaFile{file://C:/Users/Volker/FMDE/fmde_mps/languages/FMDE/languages/FMDE/models/behavior.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="38b830e0-048c-45e8-9e92-b909c50a1ebf" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -521,7 +429,49 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox) in IdeaFile{file://C:/Users/Volker/FMDE/fmde_mps/languages/FMDE/languages/FMDE/sandbox/models/FMDE.sandbox.mps}" />
+              <option name="myItemId" value="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox) in IdeaFile{file://C:/Users/Volker/fmde_mpsLetzterVersuch/FMDE2/languages/FMDE/sandbox/models/FMDE.sandbox.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4e0b0999-e33e-4843-a738-8042ce366907" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FMDE" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:1dc54318-991a-433a-bf6c-679f18afc7d8(FMDE.runtime) in IdeaFile{file://C:/Users/Volker/fmde_mpsLetzterVersuch/FMDE2/languages/FMDE/runtime/models/FMDE.runtime.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4e0b0999-e33e-4843-a738-8042ce366907" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4e0b0999-e33e-4843-a738-8042ce366907" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FMDE" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -545,7 +495,37 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="41ba7664-a5f6-4eba-b5f5-2e676d679bac(FMDE)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="38b830e0-048c-45e8-9e92-b909c50a1ebf" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="41ba7664-a5f6-4eba-b5f5-2e676d679bac(FMDE)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3d243320-66c6-4be1-88d0-da739fb0c086(FMDE.editor) in IdeaFile{file://C:/Users/Volker/fmde_mpsLetzterVersuch/FMDE2/languages/FMDE/models/editor.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -563,11 +543,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox) in IdeaFile{file://C:/Users/Volker/FMDE/fmde_mps/languages/FMDE/languages/FMDE/sandbox/models/FMDE.sandbox.mps}" />
+              <option name="myItemId" value="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox) in IdeaFile{file://C:/Users/Volker/fmde_mpsLetzterVersuch/FMDE2/languages/FMDE/sandbox/models/FMDE.sandbox.mps}" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="5493973241021561484" />
+              <option name="myItemId" value="4683218551792052161" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -843,6 +823,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.36459908" order="7" side_tool="false" content_ui="tabs" />
@@ -860,13 +841,13 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24763407" sideWeight="0.42738277" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5075643" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36762482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39183056" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -955,9 +936,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://FMDE.sandbox/FMDE.sandbox/Project" />
-    <entry file="mps://node://FMDE.sandbox/FMDE.sandbox/Project" />
-    <entry file="mps://node://FMDE.sandbox/FMDE.sandbox/Project" />
     <entry file="mps://node://FMDE.sandbox/FMDE.sandbox/Project" />
     <entry file="mps://node://FMDE.sandbox/FMDE.sandbox/Project" />
     <entry file="mps://node://FMDE.sandbox/FMDE.sandbox/Project" />
@@ -1645,13 +1623,15 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/2471835282860005682" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/4683218551792052189" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
-            <enabledHints />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="FMDE.editor.projects.diagram" />
+            </enabledHints>
           </inspectorMemento>
           <node node_ref="r:3d243320-66c6-4be1-88d0-da739fb0c086(FMDE.editor)/485992265075588083" />
         </state>
@@ -1694,17 +1674,20 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/2471835282860005682" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/4683218551792052189" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
-            <enabledHints />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="FMDE.editor.projects.diagram" />
+            </enabledHints>
           </inspectorMemento>
         </state>
       </provider>
     </entry>
+    <entry file="mps://node://FMDE.sandbox/FMDE.sandbox/Test" />
     <entry file="mps://node://FMDE.sandbox/FMDE.sandbox/FinSetTest">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1712,11 +1695,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="71" />
-                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="111" />
+                <property name="caretXRelative" value="8" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
-                  <node node_reference="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/2471835282860007311" />
+                <cellInfo cellId="Constant_zedcwq_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/2471835282860006704" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1736,29 +1719,36 @@
                 </cellIdElement>
               </collapsedElement>
             </restoreAlways>
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="FMDE.editor.projects.diagram" />
+            </enabledHints>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/2471835282860005682" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/4683218551792052189" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
-            <enabledHints />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="FMDE.editor.projects.diagram" />
+            </enabledHints>
           </inspectorMemento>
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://FMDE.sandbox/FMDE.sandbox/Test">
+    <entry file="mps://node://FMDE/FMDE.editor/&lt;no name&gt;[ConceptEditorContextHints]" />
+    <entry file="mps://node://FMDE.sandbox/FMDE.sandbox/&lt;no name&gt;[Project]" />
+    <entry file="mps://node://FMDE.sandbox/FMDE.sandbox/test">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretX" value="-255" />
-                <property name="caretXRelative" value="-290" />
+                <property name="caretX" value="-15" />
+                <property name="caretXRelative" value="-40" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="DiagramConnector_6jlyi6_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/2471835282860005682" />
+                <cellInfo cellId="DiagramNode_c42wez_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/4683218551792052189" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1766,14 +1756,19 @@
             <transactionalProperties />
             <foldable />
             <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="FMDE.editor.projects.diagram" />
+            </enabledHints>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/2471835282860005682" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/4683218551792052189" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
-            <enabledHints />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="FMDE.editor.projects.diagram" />
+            </enabledHints>
           </inspectorMemento>
         </state>
       </provider>

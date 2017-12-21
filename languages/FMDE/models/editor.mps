@@ -30,6 +30,12 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="5944657839000868711" name="jetbrains.mps.lang.editor.structure.ConceptEditorContextHints" flags="ig" index="2ABfQD">
+        <child id="5944657839000877563" name="hints" index="2ABdcP" />
+      </concept>
+      <concept id="5944657839003601246" name="jetbrains.mps.lang.editor.structure.ConceptEditorHintDeclaration" flags="ig" index="2BsEeg">
+        <property id="168363875802087287" name="showInUI" index="2gpH_U" />
+      </concept>
       <concept id="1239814640496" name="jetbrains.mps.lang.editor.structure.CellLayout_VerticalGrid" flags="nn" index="2EHx9g" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
@@ -597,6 +603,13 @@
           <property role="Xl_RC" value="Output" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="2ABfQD" id="43Y8Bn94mvT">
+    <property role="TrG5h" value="projects" />
+    <node concept="2BsEeg" id="4pxCBZ5cvp" role="2ABdcP">
+      <property role="2gpH_U" value="true" />
+      <property role="TrG5h" value="diagramm" />
     </node>
   </node>
 </model>

@@ -62,42 +62,6 @@
       <unit id="5016177838256802478" at="10,0,66,0" name="FMDE.sandbox.TestKlasse" />
     </file>
   </root>
-  <root nodeRef="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/5493973241021561484">
-    <file name="Test.java">
-      <node id="5493973241021561484" at="10,42,11,14" concept="1" />
-      <node id="5493973241021561484" at="11,14,12,14" concept="1" />
-      <node id="5493973241021561484" at="12,14,13,20" concept="1" />
-      <node id="5493973241021561484" at="13,20,14,0" concept="2" />
-      <node id="5493973241021561484" at="16,7,17,17" concept="0" />
-      <node id="5493973241021561484" at="17,17,18,17" concept="0" />
-      <node id="5493973241021561484" at="22,7,23,18" concept="0" />
-      <node id="5493973241021561484" at="23,18,24,18" concept="0" />
-      <node id="5493973241021561484" at="28,7,29,64" concept="0" />
-      <node id="5493973241021561484" at="31,7,32,64" concept="0" />
-      <node id="5493973241021561484" at="34,6,35,0" concept="2" />
-      <node id="5493973241021561484" at="35,0,36,0" concept="2" />
-      <node id="5493973241021561484" at="14,0,20,7" concept="0" />
-      <node id="5493973241021561484" at="20,7,26,7" concept="0" />
-      <node id="5493973241021561484" at="26,7,34,6" concept="0" />
-      <node id="5493973241021561484" at="10,0,38,0" concept="3" trace="main#([Ljava/lang/String;)V" />
-      <scope id="5493973241021561484" at="28,7,29,64" />
-      <scope id="5493973241021561484" at="31,7,32,64" />
-      <scope id="5493973241021561484" at="16,7,18,17" />
-      <scope id="5493973241021561484" at="22,7,24,18" />
-      <scope id="5493973241021561484" at="10,42,36,0">
-        <var name="G1" id="5493973241021561484" />
-        <var name="G2" id="5493973241021561484" />
-        <var name="g" id="5493973241021561484" />
-      </scope>
-      <scope id="5493973241021561484" at="10,0,38,0">
-        <var name="args" id="5493973241021561484" />
-      </scope>
-      <unit id="5493973241021561484" at="15,24,20,5" name="FMDE.sandbox.Test$1" />
-      <unit id="5493973241021561484" at="21,24,26,5" name="FMDE.sandbox.Test$2" />
-      <unit id="5493973241021561484" at="27,12,34,5" name="FMDE.sandbox.Test$3" />
-      <unit id="5493973241021561484" at="9,0,39,0" name="FMDE.sandbox.Test" />
-    </file>
-  </root>
   <root nodeRef="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/6343126577090632465">
     <file name="FinSetTest.java">
       <node id="5016177838256746890" at="14,7,15,18" concept="0" />
@@ -119,7 +83,8 @@
       <node id="5016177838256746919" at="50,18,51,18" concept="0" />
       <node id="5016177838256746926" at="55,7,56,22" concept="0" />
       <node id="5016177838256746930" at="60,7,61,22" concept="0" />
-      <node id="5016177838256746931" at="63,6,64,68" concept="0" />
+      <node id="2471835282860006704" at="63,6,64,12" concept="0" />
+      <node id="5016177838256746931" at="64,12,65,68" concept="0" />
       <node id="5016177838256746923" at="53,7,58,6" concept="1" />
       <node id="5016177838256746927" at="58,6,63,6" concept="1" />
       <node id="5016177838256746887" at="11,42,19,7" concept="1" />
@@ -127,7 +92,7 @@
       <node id="5016177838256746902" at="29,0,37,6" concept="1" />
       <node id="5016177838256746909" at="37,6,45,6" concept="1" />
       <node id="5016177838256746916" at="45,6,53,7" concept="1" />
-      <node id="5016177838256746884" at="11,0,66,0" concept="3" trace="main#([Ljava/lang/String;)V" />
+      <node id="5016177838256746884" at="11,0,67,0" concept="3" trace="main#([Ljava/lang/String;)V" />
       <scope id="5016177838256746926" at="55,7,56,22" />
       <scope id="5016177838256746930" at="60,7,61,22" />
       <scope id="5016177838256746890" at="14,7,17,18" />
@@ -135,7 +100,7 @@
       <scope id="5016177838256746905" at="32,7,35,65" />
       <scope id="5016177838256746912" at="40,7,43,65" />
       <scope id="5016177838256746919" at="48,7,51,18" />
-      <scope id="5016177838256746886" at="11,42,64,68">
+      <scope id="5016177838256746886" at="11,42,65,68">
         <var name="X" id="5016177838256746888" />
         <var name="Y" id="5016177838256746895" />
         <var name="Z" id="5016177838256746917" />
@@ -144,7 +109,7 @@
         <var name="g" id="5016177838256746910" />
         <var name="gf" id="5016177838256746928" />
       </scope>
-      <scope id="5016177838256746884" at="11,0,66,0">
+      <scope id="5016177838256746884" at="11,0,67,0">
         <var name="args" id="5016177838256746941" />
       </scope>
       <unit id="5016177838256746926" at="54,27,58,5" name="FMDE.sandbox.FinSetTest$6" />
@@ -154,7 +119,7 @@
       <unit id="5016177838256746905" at="30,26,37,5" name="FMDE.sandbox.FinSetTest$3" />
       <unit id="5016177838256746912" at="38,26,45,5" name="FMDE.sandbox.FinSetTest$4" />
       <unit id="5016177838256746919" at="46,30,53,5" name="FMDE.sandbox.FinSetTest$5" />
-      <unit id="6343126577090632465" at="10,0,67,0" name="FMDE.sandbox.FinSetTest" />
+      <unit id="6343126577090632465" at="10,0,68,0" name="FMDE.sandbox.FinSetTest" />
     </file>
   </root>
 </debug-info>
