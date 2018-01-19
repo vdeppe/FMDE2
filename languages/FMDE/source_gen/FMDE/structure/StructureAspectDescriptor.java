@@ -13,11 +13,18 @@ import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptComposition = createDescriptorForComposition();
+  /*package*/ final ConceptDescriptor myConceptEdge = createDescriptorForEdge();
+  /*package*/ final ConceptDescriptor myConceptEdgeName = createDescriptorForEdgeName();
   /*package*/ final ConceptDescriptor myConceptFinSet = createDescriptorForFinSet();
   /*package*/ final ConceptDescriptor myConceptFinSetElements = createDescriptorForFinSetElements();
   /*package*/ final ConceptDescriptor myConceptFinSetRendering = createDescriptorForFinSetRendering();
+  /*package*/ final ConceptDescriptor myConceptGraph = createDescriptorForGraph();
+  /*package*/ final ConceptDescriptor myConceptGraphSet = createDescriptorForGraphSet();
   /*package*/ final ConceptDescriptor myConceptMapping = createDescriptorForMapping();
+  /*package*/ final ConceptDescriptor myConceptNode = createDescriptorForNode();
   /*package*/ final ConceptDescriptor myConceptProject = createDescriptorForProject();
+  /*package*/ final ConceptDescriptor myConceptSourceNode = createDescriptorForSourceNode();
+  /*package*/ final ConceptDescriptor myConceptTargetNode = createDescriptorForTargetNode();
   /*package*/ final ConceptDescriptor myConceptTotalFunction = createDescriptorForTotalFunction();
   /*package*/ final ConceptDescriptor myConceptTotalFunctionRendering = createDescriptorForTotalFunctionRendering();
   /*package*/ final ConceptDescriptor myConceptfmdeLanguage = createDescriptorForfmdeLanguage();
@@ -29,7 +36,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptComposition, myConceptFinSet, myConceptFinSetElements, myConceptFinSetRendering, myConceptMapping, myConceptProject, myConceptTotalFunction, myConceptTotalFunctionRendering, myConceptfmdeLanguage);
+    return Arrays.asList(myConceptComposition, myConceptEdge, myConceptEdgeName, myConceptFinSet, myConceptFinSetElements, myConceptFinSetRendering, myConceptGraph, myConceptGraphSet, myConceptMapping, myConceptNode, myConceptProject, myConceptSourceNode, myConceptTargetNode, myConceptTotalFunction, myConceptTotalFunctionRendering, myConceptfmdeLanguage);
   }
 
   @Override
@@ -38,16 +45,30 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     switch (myConceptIndex.index(id)) {
       case LanguageConceptSwitch.Composition:
         return myConceptComposition;
+      case LanguageConceptSwitch.Edge:
+        return myConceptEdge;
+      case LanguageConceptSwitch.EdgeName:
+        return myConceptEdgeName;
       case LanguageConceptSwitch.FinSet:
         return myConceptFinSet;
       case LanguageConceptSwitch.FinSetElements:
         return myConceptFinSetElements;
       case LanguageConceptSwitch.FinSetRendering:
         return myConceptFinSetRendering;
+      case LanguageConceptSwitch.Graph:
+        return myConceptGraph;
+      case LanguageConceptSwitch.GraphSet:
+        return myConceptGraphSet;
       case LanguageConceptSwitch.Mapping:
         return myConceptMapping;
+      case LanguageConceptSwitch.Node:
+        return myConceptNode;
       case LanguageConceptSwitch.Project:
         return myConceptProject;
+      case LanguageConceptSwitch.SourceNode:
+        return myConceptSourceNode;
+      case LanguageConceptSwitch.TargetNode:
+        return myConceptTargetNode;
       case LanguageConceptSwitch.TotalFunction:
         return myConceptTotalFunction;
       case LanguageConceptSwitch.TotalFunctionRendering:
@@ -71,6 +92,22 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.associate("from", 0x7de6eec37a8601d0L).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x58075003b8dc4831L).optional(false).origin("9072201022726078928").done();
     b.associate("to", 0x7de6eec37a8601d2L).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x58075003b8dc4831L).optional(false).origin("9072201022726078930").done();
     b.alias("composition");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForEdge() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("FMDE", "Edge", 0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece544220fd40L);
+    b.class_(false, false, false);
+    b.origin("r:a208b3cd-5ffc-485a-a143-275bfdd90278(FMDE.structure)/6561408568407424320");
+    b.associate("targetNode", 0x5b0ece5442229a43L).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece544232e8f1L).optional(false).origin("6561408568407530051").done();
+    b.associate("name", 0x5b0ece54424736ddL).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece54424736daL).optional(false).origin("6561408568409929437").done();
+    b.alias("edge");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForEdgeName() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("FMDE", "EdgeName", 0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece54424736daL);
+    b.class_(false, false, false);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:a208b3cd-5ffc-485a-a143-275bfdd90278(FMDE.structure)/6561408568409929434");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForFinSet() {
@@ -100,6 +137,27 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("fSetRendering");
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForGraph() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("FMDE", "Graph", 0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece544232e6f1L);
+    b.class_(false, false, false);
+    b.super_("jetbrains.mps.baseLanguage.structure.Expression", 0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL);
+    b.origin("r:a208b3cd-5ffc-485a-a143-275bfdd90278(FMDE.structure)/6561408568408598257");
+    b.aggregate("sources", 0x5b0ece544232e6f4L).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece544232e8eeL).optional(true).ordered(true).multiple(false).origin("6561408568408598260").done();
+    b.aggregate("targets", 0x5b0ece544232e8f4L).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece544232e8f1L).optional(true).ordered(true).multiple(false).origin("6561408568408598772").done();
+    b.aggregate("edge", 0x5b0ece5442441b3fL).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece54424736daL).optional(true).ordered(true).multiple(false).origin("6561408568409725759").done();
+    b.alias("graph");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForGraphSet() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("FMDE", "GraphSet", 0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece544220fd25L);
+    b.class_(false, false, false);
+    b.super_("jetbrains.mps.baseLanguage.structure.Expression", 0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:a208b3cd-5ffc-485a-a143-275bfdd90278(FMDE.structure)/6561408568407424293");
+    b.aggregate("elements", 0x5b0ece544220fd28L).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece544220fd63L).optional(false).ordered(true).multiple(true).origin("6561408568407424296").done();
+    b.alias("gSet");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForMapping() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("FMDE", "Mapping", 0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x58075003b8dc484bL);
     b.class_(false, false, false);
@@ -110,6 +168,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("mapping");
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForNode() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("FMDE", "Node", 0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece544220fd63L);
+    b.class_(false, false, false);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:a208b3cd-5ffc-485a-a143-275bfdd90278(FMDE.structure)/6561408568407424355");
+    b.associate("source", 0x5b0ece54423592eeL).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece544232e8eeL).optional(true).origin("6561408568408773358").done();
+    b.aggregate("edges", 0x5b0ece54422299cdL).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece544220fd40L).optional(true).ordered(true).multiple(true).origin("6561408568407529933").done();
+    b.alias("nodeElement");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForProject() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("FMDE", "Project", 0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x6be9763e36afbd2L);
     b.class_(false, false, true);
@@ -117,7 +185,23 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:a208b3cd-5ffc-485a-a143-275bfdd90278(FMDE.structure)/485992265075588050");
     b.aggregate("fSets", 0x6be9763e36afbeeL).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x6be9763e36a5faaL).optional(true).ordered(true).multiple(true).origin("485992265075588078").done();
     b.aggregate("TFunctions", 0x5baf3deb65da5261L).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5baf3deb65d4da17L).optional(true).ordered(true).multiple(true).origin("6606567259611222625").done();
+    b.aggregate("graphs", 0x5b0ece5442392ac6L).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece544232e6f1L).optional(true).ordered(true).multiple(true).origin("6561408568409008838").done();
+    b.aggregate("gSets", 0x5b0ece544229d12cL).target(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece544220fd25L).optional(true).ordered(true).multiple(true).origin("6561408568408002860").done();
     b.alias("project");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForSourceNode() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("FMDE", "SourceNode", 0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece544232e8eeL);
+    b.class_(false, false, false);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:a208b3cd-5ffc-485a-a143-275bfdd90278(FMDE.structure)/6561408568408598766");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTargetNode() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("FMDE", "TargetNode", 0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x5b0ece544232e8f1L);
+    b.class_(false, false, false);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:a208b3cd-5ffc-485a-a143-275bfdd90278(FMDE.structure)/6561408568408598769");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForTotalFunction() {

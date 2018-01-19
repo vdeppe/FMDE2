@@ -1,42 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1178893518978:jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" />
   <root nodeRef="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/337298362379343926">
     <file name="Test.java">
-      <node id="337298362379343926" at="10,42,11,14" concept="1" />
-      <node id="337298362379343926" at="11,14,12,14" concept="1" />
-      <node id="337298362379343926" at="12,14,13,15" concept="1" />
-      <node id="337298362379343926" at="13,15,14,20" concept="1" />
-      <node id="337298362379343926" at="14,20,15,20" concept="1" />
-      <node id="337298362379343926" at="15,20,16,20" concept="1" />
-      <node id="337298362379343926" at="16,20,17,0" concept="2" />
-      <node id="337298362379343926" at="19,7,20,18" concept="0" />
-      <node id="337298362379343926" at="20,18,21,18" concept="0" />
-      <node id="337298362379343926" at="21,18,22,18" concept="0" />
-      <node id="337298362379343926" at="22,18,23,18" concept="0" />
-      <node id="337298362379343926" at="27,7,28,17" concept="0" />
-      <node id="337298362379343926" at="28,17,29,17" concept="0" />
-      <node id="337298362379343926" at="29,17,30,17" concept="0" />
-      <node id="337298362379343926" at="30,17,31,17" concept="0" />
-      <node id="337298362379343926" at="35,7,36,17" concept="0" />
-      <node id="337298362379343926" at="36,17,37,17" concept="0" />
-      <node id="337298362379343926" at="37,17,38,17" concept="0" />
-      <node id="337298362379343926" at="38,17,39,17" concept="0" />
-      <node id="337298362379343926" at="43,7,44,64" concept="0" />
-      <node id="337298362379343926" at="48,7,49,63" concept="0" />
-      <node id="337298362379343926" at="53,7,54,64" concept="0" />
-      <node id="337298362379343926" at="56,6,57,0" concept="2" />
-      <node id="337298362379343926" at="57,0,58,0" concept="2" />
-      <node id="337298362379343926" at="41,7,46,6" concept="0" />
-      <node id="337298362379343926" at="46,6,51,6" concept="0" />
-      <node id="337298362379343926" at="51,6,56,6" concept="0" />
-      <node id="337298362379343926" at="17,0,25,7" concept="0" />
-      <node id="337298362379343926" at="25,7,33,7" concept="0" />
-      <node id="337298362379343926" at="33,7,41,7" concept="0" />
-      <node id="337298362379343926" at="10,0,60,0" concept="3" trace="main#([Ljava/lang/String;)V" />
+      <node id="337298362379343926" at="10,42,11,14" concept="4" />
+      <node id="337298362379343926" at="11,14,12,14" concept="4" />
+      <node id="337298362379343926" at="12,14,13,15" concept="4" />
+      <node id="337298362379343926" at="13,15,14,20" concept="4" />
+      <node id="337298362379343926" at="14,20,15,20" concept="4" />
+      <node id="337298362379343926" at="15,20,16,20" concept="4" />
+      <node id="337298362379343926" at="16,20,17,0" concept="6" />
+      <node id="337298362379343926" at="19,7,20,18" concept="1" />
+      <node id="337298362379343926" at="20,18,21,18" concept="1" />
+      <node id="337298362379343926" at="21,18,22,18" concept="1" />
+      <node id="337298362379343926" at="22,18,23,18" concept="1" />
+      <node id="337298362379343926" at="27,7,28,17" concept="1" />
+      <node id="337298362379343926" at="28,17,29,17" concept="1" />
+      <node id="337298362379343926" at="29,17,30,17" concept="1" />
+      <node id="337298362379343926" at="30,17,31,17" concept="1" />
+      <node id="337298362379343926" at="35,7,36,17" concept="1" />
+      <node id="337298362379343926" at="36,17,37,17" concept="1" />
+      <node id="337298362379343926" at="37,17,38,17" concept="1" />
+      <node id="337298362379343926" at="38,17,39,17" concept="1" />
+      <node id="337298362379343926" at="43,7,44,64" concept="1" />
+      <node id="337298362379343926" at="48,7,49,63" concept="1" />
+      <node id="337298362379343926" at="53,7,54,64" concept="1" />
+      <node id="337298362379343926" at="56,6,57,0" concept="6" />
+      <node id="337298362379343926" at="57,0,58,0" concept="6" />
+      <node id="337298362379343926" at="41,7,46,6" concept="1" />
+      <node id="337298362379343926" at="46,6,51,6" concept="1" />
+      <node id="337298362379343926" at="51,6,56,6" concept="1" />
+      <node id="337298362379343926" at="17,0,25,7" concept="1" />
+      <node id="337298362379343926" at="25,7,33,7" concept="1" />
+      <node id="337298362379343926" at="33,7,41,7" concept="1" />
+      <node id="337298362379343926" at="10,0,60,0" concept="7" trace="main#([Ljava/lang/String;)V" />
       <scope id="337298362379343926" at="43,7,44,64" />
       <scope id="337298362379343926" at="48,7,49,63" />
       <scope id="337298362379343926" at="53,7,54,64" />
@@ -63,35 +69,71 @@
       <unit id="337298362379343926" at="9,0,61,0" name="FMDE.sandbox.Test" />
     </file>
   </root>
+  <root nodeRef="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/4344184263212398435">
+    <file name="MyView.java">
+      <node id="6544445861731531142" at="12,0,13,0" concept="2" trace="width" />
+      <node id="6544445861731598964" at="13,0,14,0" concept="2" trace="height" />
+      <node id="6544445861731565113" at="14,19,15,49" concept="9" />
+      <node id="6544445861731569499" at="20,83,21,59" concept="5" />
+      <node id="6544445861731560943" at="25,44,26,28" concept="8" />
+      <node id="6544445861731563841" at="29,91,30,49" concept="1" />
+      <node id="6544445861731567236" at="17,0,19,0" concept="0" trace="MyView#(LFMDE/sandbox/MyView/MyViewFigureMapperFactory;)V" />
+      <node id="6544445861731546358" at="14,0,17,0" concept="0" trace="MyView#()V" />
+      <node id="6544445861731555576" at="20,0,23,0" concept="3" trace="createMapper#(LFMDE/sandbox/MyView;)Ljetbrains/jetpad/mapper/Mapper;" />
+      <node id="6544445861731560353" at="25,0,28,0" concept="0" trace="MyViewFigureMapper#(null)V" />
+      <node id="6544445861731561593" at="28,0,32,0" concept="3" trace="registerSynchronizers#(Ljetbrains/jetpad/mapper/Mapper/SynchronizersConfiguration;)V" />
+      <scope id="6544445861731567239" at="17,65,17,65" />
+      <scope id="6544445861731546361" at="14,19,15,49" />
+      <scope id="6544445861731555579" at="20,83,21,59" />
+      <scope id="6544445861731560356" at="25,44,26,28" />
+      <scope id="6544445861731561596" at="29,91,30,49" />
+      <scope id="6544445861731567236" at="17,0,19,0">
+        <var name="mapperFactory" id="6544445861731574578" />
+      </scope>
+      <scope id="6544445861731546358" at="14,0,17,0" />
+      <scope id="6544445861731555576" at="20,0,23,0">
+        <var name="figure" id="6544445861731555693" />
+      </scope>
+      <scope id="6544445861731560353" at="25,0,28,0">
+        <var name="figure" id="6544445861731560498" />
+      </scope>
+      <scope id="6544445861731561593" at="28,0,32,0">
+        <var name="configuration" id="6544445861731561703" />
+      </scope>
+      <unit id="6544445861731548103" at="19,0,24,0" name="FMDE.sandbox.MyView$MyViewFigureMapperFactory" />
+      <unit id="6544445861731558942" at="24,0,33,0" name="FMDE.sandbox.MyView$MyViewFigureMapper" />
+      <unit id="4344184263212398435" at="11,0,34,0" name="FMDE.sandbox.MyView" />
+    </file>
+  </root>
   <root nodeRef="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/5016177838256802478">
     <file name="TestKlasse.java">
-      <node id="5016177838256803127" at="14,7,15,18" concept="0" />
-      <node id="5016177838256803127" at="15,18,16,18" concept="0" />
-      <node id="5016177838256803127" at="16,18,17,18" concept="0" />
-      <node id="5016177838256803134" at="22,7,23,18" concept="0" />
-      <node id="5016177838256803134" at="23,18,24,18" concept="0" />
-      <node id="5016177838256803134" at="24,18,25,18" concept="0" />
-      <node id="5016177838256803138" at="27,7,28,0" concept="2" />
-      <node id="5016177838256803142" at="31,7,32,65" concept="0" />
-      <node id="5016177838256803142" at="32,65,33,65" concept="0" />
-      <node id="5016177838256803142" at="33,65,34,65" concept="0" />
-      <node id="5016177838256803149" at="39,7,40,65" concept="0" />
-      <node id="5016177838256803149" at="40,65,41,65" concept="0" />
-      <node id="5016177838256803149" at="41,65,42,65" concept="0" />
-      <node id="5016177838256803156" at="47,7,48,18" concept="0" />
-      <node id="5016177838256803156" at="48,18,49,18" concept="0" />
-      <node id="5016177838256803156" at="49,18,50,18" concept="0" />
-      <node id="5016177838256803163" at="54,7,55,22" concept="0" />
-      <node id="5016177838256803167" at="59,7,60,22" concept="0" />
-      <node id="5016177838256803168" at="62,6,63,68" concept="0" />
-      <node id="5016177838256803160" at="52,7,57,6" concept="1" />
-      <node id="5016177838256803164" at="57,6,62,6" concept="1" />
-      <node id="5016177838256803124" at="11,42,19,7" concept="1" />
-      <node id="5016177838256803131" at="19,7,27,7" concept="1" />
-      <node id="5016177838256803139" at="28,0,36,6" concept="1" />
-      <node id="5016177838256803146" at="36,6,44,6" concept="1" />
-      <node id="5016177838256803153" at="44,6,52,7" concept="1" />
-      <node id="5016177838256803122" at="11,0,65,0" concept="3" trace="main#([Ljava/lang/String;)V" />
+      <node id="5016177838256803127" at="14,7,15,18" concept="1" />
+      <node id="5016177838256803127" at="15,18,16,18" concept="1" />
+      <node id="5016177838256803127" at="16,18,17,18" concept="1" />
+      <node id="5016177838256803134" at="22,7,23,18" concept="1" />
+      <node id="5016177838256803134" at="23,18,24,18" concept="1" />
+      <node id="5016177838256803134" at="24,18,25,18" concept="1" />
+      <node id="5016177838256803138" at="27,7,28,0" concept="6" />
+      <node id="5016177838256803142" at="31,7,32,65" concept="1" />
+      <node id="5016177838256803142" at="32,65,33,65" concept="1" />
+      <node id="5016177838256803142" at="33,65,34,65" concept="1" />
+      <node id="5016177838256803149" at="39,7,40,65" concept="1" />
+      <node id="5016177838256803149" at="40,65,41,65" concept="1" />
+      <node id="5016177838256803149" at="41,65,42,65" concept="1" />
+      <node id="5016177838256803156" at="47,7,48,18" concept="1" />
+      <node id="5016177838256803156" at="48,18,49,18" concept="1" />
+      <node id="5016177838256803156" at="49,18,50,18" concept="1" />
+      <node id="5016177838256803163" at="54,7,55,22" concept="1" />
+      <node id="5016177838256803167" at="59,7,60,22" concept="1" />
+      <node id="5016177838256803168" at="62,6,63,68" concept="1" />
+      <node id="5016177838256803160" at="52,7,57,6" concept="4" />
+      <node id="5016177838256803164" at="57,6,62,6" concept="4" />
+      <node id="5016177838256803124" at="11,42,19,7" concept="4" />
+      <node id="5016177838256803131" at="19,7,27,7" concept="4" />
+      <node id="5016177838256803139" at="28,0,36,6" concept="4" />
+      <node id="5016177838256803146" at="36,6,44,6" concept="4" />
+      <node id="5016177838256803153" at="44,6,52,7" concept="4" />
+      <node id="5016177838256803122" at="11,0,65,0" concept="7" trace="main#([Ljava/lang/String;)V" />
       <scope id="5016177838256803163" at="54,7,55,22" />
       <scope id="5016177838256803167" at="59,7,60,22" />
       <scope id="5016177838256803127" at="14,7,17,18" />
@@ -123,41 +165,41 @@
   </root>
   <root nodeRef="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/6343126577090632465">
     <file name="FinSetTest.java">
-      <node id="5016177838256746890" at="14,7,15,18" concept="0" />
-      <node id="5016177838256746890" at="15,18,16,18" concept="0" />
-      <node id="5016177838256746890" at="16,18,17,18" concept="0" />
-      <node id="5016177838256746897" at="22,7,23,18" concept="0" />
-      <node id="5016177838256746897" at="23,18,24,18" concept="0" />
-      <node id="5016177838256746897" at="24,18,25,18" concept="0" />
-      <node id="5016177838257369927" at="27,7,28,0" concept="2" />
-      <node id="5016177838256746901" at="28,0,29,0" concept="2" />
-      <node id="5016177838256746905" at="32,7,33,65" concept="0" />
-      <node id="5016177838256746905" at="33,65,34,65" concept="0" />
-      <node id="5016177838256746905" at="34,65,35,65" concept="0" />
-      <node id="5016177838256746912" at="40,7,41,65" concept="0" />
-      <node id="5016177838256746912" at="41,65,42,65" concept="0" />
-      <node id="5016177838256746912" at="42,65,43,65" concept="0" />
-      <node id="5016177838256746919" at="48,7,49,18" concept="0" />
-      <node id="5016177838256746919" at="49,18,50,18" concept="0" />
-      <node id="5016177838256746919" at="50,18,51,18" concept="0" />
-      <node id="5016177838256746926" at="55,7,56,22" concept="0" />
-      <node id="5016177838256746930" at="60,7,61,22" concept="0" />
-      <node id="337298362380092541" at="66,7,67,19" concept="0" />
-      <node id="337298362380092541" at="67,19,68,19" concept="0" />
-      <node id="5016177838256746931" at="70,7,71,68" concept="0" />
-      <node id="5016177838256746923" at="53,7,58,6" concept="1" />
-      <node id="5016177838256746927" at="58,6,63,6" concept="1" />
-      <node id="337298362380092018" at="63,6,70,7" concept="1" />
-      <node id="5016177838256746887" at="11,42,19,7" concept="1" />
-      <node id="5016177838256746894" at="19,7,27,7" concept="1" />
-      <node id="5016177838256746902" at="29,0,37,6" concept="1" />
-      <node id="5016177838256746909" at="37,6,45,6" concept="1" />
-      <node id="5016177838256746916" at="45,6,53,7" concept="1" />
-      <node id="5016177838256746884" at="11,0,73,0" concept="3" trace="main#([Ljava/lang/String;)V" />
+      <node id="337298362380558653" at="14,7,15,18" concept="1" />
+      <node id="337298362380558653" at="15,18,16,18" concept="1" />
+      <node id="337298362380558653" at="16,18,17,18" concept="1" />
+      <node id="5016177838256746897" at="22,7,23,18" concept="1" />
+      <node id="5016177838256746897" at="23,18,24,18" concept="1" />
+      <node id="5016177838256746897" at="24,18,25,18" concept="1" />
+      <node id="5016177838257369927" at="27,7,28,0" concept="6" />
+      <node id="5016177838256746901" at="28,0,29,0" concept="6" />
+      <node id="5016177838256746905" at="32,7,33,65" concept="1" />
+      <node id="5016177838256746905" at="33,65,34,65" concept="1" />
+      <node id="5016177838256746905" at="34,65,35,65" concept="1" />
+      <node id="5016177838256746912" at="40,7,41,65" concept="1" />
+      <node id="5016177838256746912" at="41,65,42,65" concept="1" />
+      <node id="5016177838256746912" at="42,65,43,65" concept="1" />
+      <node id="5016177838256746919" at="48,7,49,18" concept="1" />
+      <node id="5016177838256746919" at="49,18,50,18" concept="1" />
+      <node id="5016177838256746919" at="50,18,51,18" concept="1" />
+      <node id="5016177838256746926" at="55,7,56,22" concept="1" />
+      <node id="5016177838256746930" at="60,7,61,22" concept="1" />
+      <node id="337298362380092541" at="66,7,67,19" concept="1" />
+      <node id="337298362380092541" at="67,19,68,19" concept="1" />
+      <node id="5016177838256746931" at="70,7,71,68" concept="1" />
+      <node id="5016177838256746923" at="53,7,58,6" concept="4" />
+      <node id="5016177838256746927" at="58,6,63,6" concept="4" />
+      <node id="337298362380092018" at="63,6,70,7" concept="4" />
+      <node id="5016177838256746887" at="11,42,19,7" concept="4" />
+      <node id="5016177838256746894" at="19,7,27,7" concept="4" />
+      <node id="5016177838256746902" at="29,0,37,6" concept="4" />
+      <node id="5016177838256746909" at="37,6,45,6" concept="4" />
+      <node id="5016177838256746916" at="45,6,53,7" concept="4" />
+      <node id="5016177838256746884" at="11,0,73,0" concept="7" trace="main#([Ljava/lang/String;)V" />
       <scope id="5016177838256746926" at="55,7,56,22" />
       <scope id="5016177838256746930" at="60,7,61,22" />
       <scope id="337298362380092541" at="66,7,68,19" />
-      <scope id="5016177838256746890" at="14,7,17,18" />
+      <scope id="337298362380558653" at="14,7,17,18" />
       <scope id="5016177838256746897" at="22,7,25,18" />
       <scope id="5016177838256746905" at="32,7,35,65" />
       <scope id="5016177838256746912" at="40,7,43,65" />
@@ -178,12 +220,25 @@
       <unit id="5016177838256746926" at="54,27,58,5" name="FMDE.sandbox.FinSetTest$6" />
       <unit id="5016177838256746930" at="59,27,63,5" name="FMDE.sandbox.FinSetTest$7" />
       <unit id="337298362380092541" at="64,33,70,5" name="FMDE.sandbox.FinSetTest$8" />
-      <unit id="5016177838256746890" at="12,30,19,5" name="FMDE.sandbox.FinSetTest$1" />
+      <unit id="337298362380558653" at="12,30,19,5" name="FMDE.sandbox.FinSetTest$1" />
       <unit id="5016177838256746897" at="20,30,27,5" name="FMDE.sandbox.FinSetTest$2" />
       <unit id="5016177838256746905" at="30,26,37,5" name="FMDE.sandbox.FinSetTest$3" />
       <unit id="5016177838256746912" at="38,26,45,5" name="FMDE.sandbox.FinSetTest$4" />
       <unit id="5016177838256746919" at="46,30,53,5" name="FMDE.sandbox.FinSetTest$5" />
       <unit id="6343126577090632465" at="10,0,74,0" name="FMDE.sandbox.FinSetTest" />
+    </file>
+  </root>
+  <root nodeRef="r:041ae43a-3a63-4f2c-83b2-df35848a72d4(FMDE.sandbox)/6561408568408067248">
+    <file name="GraphSet.java">
+      <node id="6561408568408067248" at="7,42,8,0" concept="6" />
+      <node id="6561408568408067248" at="8,0,9,0" concept="6" />
+      <node id="6561408568408067248" at="9,0,10,0" concept="6" />
+      <node id="6561408568408067248" at="7,0,12,0" concept="7" trace="main#([Ljava/lang/String;)V" />
+      <scope id="6561408568408067248" at="7,42,10,0" />
+      <scope id="6561408568408067248" at="7,0,12,0">
+        <var name="args" id="6561408568408067248" />
+      </scope>
+      <unit id="6561408568408067248" at="6,0,13,0" name="FMDE.sandbox.GraphSet" />
     </file>
   </root>
 </debug-info>

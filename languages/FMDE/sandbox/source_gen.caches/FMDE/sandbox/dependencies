@@ -9,6 +9,18 @@
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.ArrayList" />
   </dependency>
+  <dependency className="FMDE.sandbox.GraphSet" file="GraphSet.java">
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+  <dependency className="FMDE.sandbox.MyView" file="MyView.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.jetpad.mapper.Mapper" />
+    <classNode dependClassName="jetbrains.jetpad.mapper.MapperFactory" />
+    <classNode dependClassName="jetbrains.jetpad.model.property.Property" />
+    <classNode dependClassName="jetbrains.jetpad.model.property.ValueProperty" />
+    <classNode extendsClassName="jetbrains.jetpad.projectional.view.View" />
+  </dependency>
   <dependency className="FMDE.sandbox.Test" file="Test.java">
     <classNode dependClassName="FMDE.runtime.FinSet" />
     <classNode dependClassName="FMDE.runtime.TotalFunction" />
