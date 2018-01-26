@@ -19,10 +19,14 @@ public class ConstraintsAspectDescriptor extends BaseConstraintsAspectDescriptor
     SAbstractConcept cncpt_a0c = concept;
     switch (index_2qnle6_a0c.index(cncpt_a0c)) {
       case 0:
+        return new EdgeMapping_Constraints();
+      case 1:
+        return new GraphMapping_Constraints();
+      case 2:
         return new Mapping_Constraints();
       default:
     }
     return new BaseConstraintsDescriptor(concept);
   }
-  private static final ConceptSwitchIndex index_2qnle6_a0c = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x58075003b8dc484bL)).seal();
+  private static final ConceptSwitchIndex index_2qnle6_a0c = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x39ca43a5325a90a3L), MetaIdFactory.conceptId(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x39ca43a5323a325cL), MetaIdFactory.conceptId(0x41ba7664a5f64ebaL, 0xb5f52e676d679bacL, 0x58075003b8dc484bL)).seal();
 }

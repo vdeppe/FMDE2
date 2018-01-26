@@ -5,7 +5,7 @@
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -205,19 +205,19 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="5IJfuH_PdCn" resolve="TotalFunctionRendering" />
     </node>
-    <node concept="1TJgyj" id="5GeN_h2eiF6" role="1TKVEi">
-      <property role="IQ2ns" value="6561408568409008838" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="graphs" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="5GeN_h2cIrL" resolve="Graph" />
-    </node>
     <node concept="1TJgyj" id="5GeN_h2at4G" role="1TKVEi">
       <property role="IQ2ns" value="6561408568408002860" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="gSets" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="5GeN_h28fO_" resolve="GraphSet" />
+    </node>
+    <node concept="1TJgyj" id="3BagUkMg3IF" role="1TKVEi">
+      <property role="IQ2ns" value="4164215182249180075" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="gFunctions" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3BagUkMez9n" resolve="GraphFunction" />
     </node>
     <node concept="PrWs8" id="4KYwSRG_ROM" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -258,25 +258,35 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="5GeN_h28fPz" resolve="Node" />
     </node>
+    <node concept="1TJgyj" id="3BagUkMo_pX" role="1TKVEi">
+      <property role="IQ2ns" value="4164215182251415165" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="elements2" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5GeN_h28fP0" resolve="Edge" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5GeN_h28fP0">
     <property role="EcuMT" value="6561408568407424320" />
     <property role="TrG5h" value="Edge" />
     <property role="34LRSv" value="edge" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5GeN_h28DD3" role="1TKVEi">
-      <property role="IQ2ns" value="6561408568407530051" />
+    <node concept="1TJgyj" id="3BagUkMv3Un" role="1TKVEi">
+      <property role="IQ2ns" value="4164215182253112983" />
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="targetNode" />
+      <property role="20kJfa" value="from" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5GeN_h2cIzL" resolve="TargetNode" />
+      <ref role="20lvS9" node="5GeN_h28fPz" resolve="Node" />
     </node>
-    <node concept="1TJgyj" id="5GeN_h2hNrt" role="1TKVEi">
-      <property role="IQ2ns" value="6561408568409929437" />
+    <node concept="PrWs8" id="3BagUkMhWY1" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="3BagUkMhWYC" role="1TKVEi">
+      <property role="IQ2ns" value="4164215182249676712" />
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="name" />
+      <property role="20kJfa" value="to" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5GeN_h2hNrq" resolve="EdgeName" />
+      <ref role="20lvS9" node="5GeN_h28fPz" resolve="Node" />
     </node>
   </node>
   <node concept="1TIwiD" id="5GeN_h28fPz">
@@ -284,71 +294,81 @@
     <property role="TrG5h" value="Node" />
     <property role="34LRSv" value="nodeElement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5GeN_h28DBd" role="1TKVEi">
-      <property role="IQ2ns" value="6561408568407529933" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="edges" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="5GeN_h28fP0" resolve="Edge" />
-    </node>
     <node concept="PrWs8" id="5GeN_h28DBf" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyj" id="5GeN_h2dpbI" role="1TKVEi">
-      <property role="IQ2ns" value="6561408568408773358" />
+  </node>
+  <node concept="1TIwiD" id="3BagUkMez9n">
+    <property role="EcuMT" value="4164215182248784471" />
+    <property role="TrG5h" value="GraphFunction" />
+    <property role="34LRSv" value="gFunction" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="PrWs8" id="3BagUkMez9o" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="3BagUkMez9q" role="1TKVEi">
+      <property role="IQ2ns" value="4164215182248784474" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="mapping" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="3BagUkMez9s" resolve="GraphMapping" />
+    </node>
+    <node concept="1TJgyj" id="3BagUkMmUOF" role="1TKVEi">
+      <property role="IQ2ns" value="4164215182250978603" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="mappingEdges" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3BagUkMmD2z" resolve="EdgeMapping" />
+    </node>
+    <node concept="1TJgyj" id="3BagUkMez9t" role="1TKVEi">
+      <property role="IQ2ns" value="4164215182248784477" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="source" />
-      <ref role="20lvS9" node="5GeN_h2cIzI" resolve="SourceNode" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5GeN_h28fO_" resolve="GraphSet" />
+    </node>
+    <node concept="1TJgyj" id="3BagUkMez9w" role="1TKVEi">
+      <property role="IQ2ns" value="4164215182248784480" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5GeN_h28fO_" resolve="GraphSet" />
     </node>
   </node>
-  <node concept="1TIwiD" id="5GeN_h2cIrL">
-    <property role="EcuMT" value="6561408568408598257" />
-    <property role="TrG5h" value="Graph" />
-    <property role="34LRSv" value="graph" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyj" id="5GeN_h2cIrO" role="1TKVEi">
-      <property role="IQ2ns" value="6561408568408598260" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="sources" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="5GeN_h2cIzI" resolve="SourceNode" />
-    </node>
-    <node concept="1TJgyj" id="5GeN_h2cIzO" role="1TKVEi">
-      <property role="IQ2ns" value="6561408568408598772" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="targets" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="5GeN_h2cIzL" resolve="TargetNode" />
-    </node>
-    <node concept="1TJgyj" id="5GeN_h2h1GZ" role="1TKVEi">
-      <property role="IQ2ns" value="6561408568409725759" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="edge" />
-      <ref role="20lvS9" node="5GeN_h2hNrq" resolve="EdgeName" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5GeN_h2cIzI">
-    <property role="EcuMT" value="6561408568408598766" />
-    <property role="TrG5h" value="SourceNode" />
+  <node concept="1TIwiD" id="3BagUkMez9s">
+    <property role="EcuMT" value="4164215182248784476" />
+    <property role="TrG5h" value="GraphMapping" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5GeN_h2cIzJ" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="1TJgyj" id="3BagUkMeSwn" role="1TKVEi">
+      <property role="IQ2ns" value="4164215182248871959" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="source" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5GeN_h28fPz" resolve="Node" />
+    </node>
+    <node concept="1TJgyj" id="3BagUkMeSwp" role="1TKVEi">
+      <property role="IQ2ns" value="4164215182248871961" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5GeN_h28fPz" resolve="Node" />
     </node>
   </node>
-  <node concept="1TIwiD" id="5GeN_h2cIzL">
-    <property role="EcuMT" value="6561408568408598769" />
-    <property role="TrG5h" value="TargetNode" />
+  <node concept="1TIwiD" id="3BagUkMmD2z">
+    <property role="EcuMT" value="4164215182250905763" />
+    <property role="TrG5h" value="EdgeMapping" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5GeN_h2cIzM" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="1TJgyj" id="3BagUkMmD2$" role="1TKVEi">
+      <property role="IQ2ns" value="4164215182250905764" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="source" />
+      <ref role="20lvS9" node="5GeN_h28fP0" resolve="Edge" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="5GeN_h2hNrq">
-    <property role="EcuMT" value="6561408568409929434" />
-    <property role="TrG5h" value="EdgeName" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5GeN_h2hNrr" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="1TJgyj" id="3BagUkMmD2A" role="1TKVEi">
+      <property role="IQ2ns" value="4164215182250905766" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="target" />
+      <ref role="20lvS9" node="5GeN_h28fP0" resolve="Edge" />
     </node>
   </node>
 </model>

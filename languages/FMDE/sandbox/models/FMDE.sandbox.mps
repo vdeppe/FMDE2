@@ -190,25 +190,29 @@
         <reference id="9072201022726078930" name="to" index="7oeWh" />
         <reference id="9072201022726078928" name="from" index="7oeWj" />
       </concept>
+      <concept id="4164215182250905763" name="FMDE.structure.EdgeMapping" flags="ng" index="b$dc6">
+        <reference id="4164215182250905764" name="source" index="b$dc1" />
+        <reference id="4164215182250905766" name="target" index="b$dc3" />
+      </concept>
+      <concept id="4164215182248784471" name="FMDE.structure.GraphFunction" flags="ng" index="bW77M">
+        <reference id="4164215182248784480" name="target" index="bW775" />
+        <reference id="4164215182248784477" name="source" index="bW77S" />
+        <child id="4164215182250978603" name="mappingEdges" index="b$uUe" />
+        <child id="4164215182248784474" name="mapping" index="bW77Z" />
+      </concept>
+      <concept id="4164215182248784476" name="FMDE.structure.GraphMapping" flags="ng" index="bW77T">
+        <reference id="4164215182248871959" name="source" index="bWsIM" />
+        <reference id="4164215182248871961" name="target" index="bWsIW" />
+      </concept>
       <concept id="6561408568407424320" name="FMDE.structure.Edge" flags="ng" index="pbzck">
-        <reference id="6561408568407530051" name="targetNode" index="pb5gn" />
-        <reference id="6561408568409929437" name="name" index="pivy9" />
+        <reference id="4164215182249676712" name="to" index="bzoKd" />
+        <reference id="4164215182253112983" name="from" index="bHBOM" />
       </concept>
-      <concept id="6561408568407424355" name="FMDE.structure.Node" flags="ng" index="pbzcR">
-        <reference id="6561408568408773358" name="source" index="pePMU" />
-        <child id="6561408568407529933" name="edges" index="pb5up" />
-      </concept>
+      <concept id="6561408568407424355" name="FMDE.structure.Node" flags="ng" index="pbzcR" />
       <concept id="6561408568407424293" name="FMDE.structure.GraphSet" flags="ng" index="pbzdL">
+        <child id="4164215182251415165" name="elements2" index="bE1no" />
         <child id="6561408568407424296" name="elements" index="pbzdW" />
       </concept>
-      <concept id="6561408568408598769" name="FMDE.structure.TargetNode" flags="ng" index="pf2q_" />
-      <concept id="6561408568408598766" name="FMDE.structure.SourceNode" flags="ng" index="pf2qU" />
-      <concept id="6561408568408598257" name="FMDE.structure.Graph" flags="ng" index="pf2y_">
-        <child id="6561408568408598772" name="targets" index="pf2qw" />
-        <child id="6561408568408598260" name="sources" index="pf2yw" />
-        <child id="6561408568409725759" name="edge" index="piHlF" />
-      </concept>
-      <concept id="6561408568409929434" name="FMDE.structure.EdgeName" flags="ng" index="pivye" />
       <concept id="6606567259610864151" name="FMDE.structure.TotalFunctionRendering" flags="ng" index="YuYvW" />
       <concept id="6343126577091201073" name="FMDE.structure.TotalFunction" flags="ng" index="3wQLwM">
         <reference id="6343126577091312323" name="source" index="3wQEF0" />
@@ -223,8 +227,8 @@
         <child id="4666989545216868817" name="elements" index="3XQnIi" />
       </concept>
       <concept id="485992265075588050" name="FMDE.structure.Project" flags="ng" index="3_P6ML">
+        <child id="4164215182249180075" name="gFunctions" index="byBwe" />
         <child id="6561408568408002860" name="gSets" index="p9LXS" />
-        <child id="6561408568409008838" name="graphs" index="pdYii" />
         <child id="6606567259611222625" name="TFunctions" index="YtmYa" />
         <child id="485992265075588078" name="fSets" index="3_P6Md" />
       </concept>
@@ -697,6 +701,10 @@
         <ref role="3XTlH$" node="iIkLbgY6$o" resolve="h" />
         <ref role="3XTIzT" node="iIkLbgX4nZ" resolve="g1" />
       </node>
+      <node concept="3wQLx8" id="3BagUkMglsF" role="3wQLxb">
+        <ref role="3XTlH$" node="iIkLbgY6$r" resolve="k" />
+        <ref role="3XTIzT" node="iIkLbgX4o4" resolve="g3" />
+      </node>
     </node>
     <node concept="YuYvW" id="iIkLbgYHFQ" role="YtmYa">
       <property role="TrG5h" value="h" />
@@ -939,56 +947,77 @@
   </node>
   <node concept="3_P6ML" id="5GeN_h2aGMK">
     <property role="TrG5h" value="GraphSet" />
-    <node concept="pbzdL" id="5GeN_h2k4Te" role="p9LXS">
+    <node concept="bW77M" id="3BagUkMumEj" role="byBwe">
+      <property role="TrG5h" value="f" />
+      <ref role="bW77S" node="3BagUkMtDEO" resolve="A" />
+      <ref role="bW775" node="3BagUkMumE0" resolve="B" />
+      <node concept="b$dc6" id="3BagUkMumEu" role="b$uUe">
+        <ref role="b$dc1" node="3BagUkMtDF8" resolve="e1" />
+        <ref role="b$dc3" node="3BagUkMumEh" resolve="e3" />
+      </node>
+      <node concept="b$dc6" id="3BagUkMumEw" role="b$uUe">
+        <ref role="b$dc3" node="3BagUkMumEh" resolve="e3" />
+        <ref role="b$dc1" node="3BagUkMumDN" resolve="e2" />
+      </node>
+      <node concept="b$dc6" id="3BagUkMvGGj" role="b$uUe">
+        <ref role="b$dc1" node="3BagUkMvGGf" resolve="e4" />
+        <ref role="b$dc3" node="3BagUkMumEh" resolve="e3" />
+      </node>
+      <node concept="bW77T" id="3BagUkMumEk" role="bW77Z">
+        <ref role="bWsIM" node="3BagUkMtDEP" resolve="a" />
+        <ref role="bWsIW" node="3BagUkMumEb" resolve="d" />
+      </node>
+      <node concept="bW77T" id="3BagUkMumEn" role="bW77Z">
+        <ref role="bWsIM" node="3BagUkMtDEW" resolve="b" />
+        <ref role="bWsIW" node="3BagUkMumEe" resolve="f" />
+      </node>
+      <node concept="bW77T" id="3BagUkMumEq" role="bW77Z">
+        <ref role="bWsIM" node="3BagUkMtDEZ" resolve="c" />
+        <ref role="bWsIW" node="3BagUkMumEe" resolve="f" />
+      </node>
+    </node>
+    <node concept="pbzdL" id="3BagUkMtDEO" role="p9LXS">
       <property role="TrG5h" value="A" />
-      <node concept="pbzcR" id="5GeN_h2k4Tg" role="pbzdW">
-        <ref role="pePMU" node="5GeN_h2iCdN" resolve="a" />
-        <node concept="pbzck" id="5GeN_h2k4Ti" role="pb5up">
-          <ref role="pivy9" node="5GeN_h2iCdR" resolve="e1" />
-          <ref role="pb5gn" node="5GeN_h2iCdP" resolve="c" />
-        </node>
-        <node concept="pbzck" id="5GeN_h2k4Tk" role="pb5up">
-          <ref role="pivy9" node="5GeN_h2iCe3" resolve="e2" />
-          <ref role="pb5gn" node="5GeN_h2iCe1" resolve="b" />
-        </node>
-      </node>
-      <node concept="pbzcR" id="5GeN_h2krvg" role="pbzdW">
-        <ref role="pePMU" node="5GeN_h2iCez" resolve="b" />
-      </node>
-      <node concept="pbzcR" id="5GeN_h2krvl" role="pbzdW">
-        <ref role="pePMU" node="5GeN_h2iCeL" resolve="c" />
-      </node>
-    </node>
-    <node concept="pf2y_" id="5GeN_h2iCdL" role="pdYii">
-      <node concept="pf2qU" id="5GeN_h2iCdN" role="pf2yw">
-        <property role="TrG5h" value="a" />
-      </node>
-      <node concept="pf2q_" id="5GeN_h2iCdP" role="pf2qw">
-        <property role="TrG5h" value="c" />
-      </node>
-      <node concept="pivye" id="5GeN_h2iCdR" role="piHlF">
+      <node concept="pbzck" id="3BagUkMtDF8" role="bE1no">
         <property role="TrG5h" value="e1" />
+        <ref role="bzoKd" node="3BagUkMtDEZ" resolve="c" />
+        <ref role="bHBOM" node="3BagUkMtDEP" resolve="a" />
       </node>
-    </node>
-    <node concept="pf2y_" id="5GeN_h2iCdT" role="pdYii">
-      <node concept="pf2qU" id="5GeN_h2iCdZ" role="pf2yw">
+      <node concept="pbzck" id="3BagUkMumDN" role="bE1no">
+        <property role="TrG5h" value="e2" />
+        <ref role="bzoKd" node="3BagUkMtDEW" resolve="b" />
+        <ref role="bHBOM" node="3BagUkMtDEP" resolve="a" />
+      </node>
+      <node concept="pbzck" id="3BagUkMvGGf" role="bE1no">
+        <property role="TrG5h" value="e4" />
+        <ref role="bHBOM" node="3BagUkMtDEZ" resolve="c" />
+        <ref role="bzoKd" node="3BagUkMtDEW" resolve="b" />
+      </node>
+      <node concept="pbzcR" id="3BagUkMtDEP" role="pbzdW">
         <property role="TrG5h" value="a" />
       </node>
-      <node concept="pf2q_" id="5GeN_h2iCe1" role="pf2qw">
+      <node concept="pbzcR" id="3BagUkMtDEW" role="pbzdW">
         <property role="TrG5h" value="b" />
       </node>
-      <node concept="pivye" id="5GeN_h2iCe3" role="piHlF">
-        <property role="TrG5h" value="e2" />
-      </node>
-    </node>
-    <node concept="pf2y_" id="5GeN_h2iCep" role="pdYii">
-      <node concept="pf2qU" id="5GeN_h2iCez" role="pf2yw">
-        <property role="TrG5h" value="b" />
-      </node>
-    </node>
-    <node concept="pf2y_" id="5GeN_h2iCe_" role="pdYii">
-      <node concept="pf2qU" id="5GeN_h2iCeL" role="pf2yw">
+      <node concept="pbzcR" id="3BagUkMtDEZ" role="pbzdW">
         <property role="TrG5h" value="c" />
+      </node>
+      <node concept="pbzcR" id="3BagUkMtDF3" role="pbzdW">
+        <property role="TrG5h" value="d" />
+      </node>
+    </node>
+    <node concept="pbzdL" id="3BagUkMumE0" role="p9LXS">
+      <property role="TrG5h" value="B" />
+      <node concept="pbzck" id="3BagUkMumEh" role="bE1no">
+        <property role="TrG5h" value="e3" />
+        <ref role="bzoKd" node="3BagUkMumEe" resolve="f" />
+        <ref role="bHBOM" node="3BagUkMtDF3" resolve="d" />
+      </node>
+      <node concept="pbzcR" id="3BagUkMumEb" role="pbzdW">
+        <property role="TrG5h" value="d" />
+      </node>
+      <node concept="pbzcR" id="3BagUkMumEe" role="pbzdW">
+        <property role="TrG5h" value="f" />
       </node>
     </node>
   </node>
